@@ -1,0 +1,84 @@
+Package: iulinux-archive-keyring
+Architecture: all
+Version: 0.1~alpha1-2
+Priority: important
+Section: admin
+Maintainer: IULinux Project
+Filename: pool/main/iulinux-archive-keyring_0.1~alpha1-2_all.deb
+Size: 1850
+MD5sum: f87973cc27fd01df8d0c93b2619bbce5
+SHA1: 2f0715669bbf8cdca335b2bbb209aa2b640a7f09
+SHA256: b1895e16f7dee5c4d52970d7d8d77b335208fdab6a1c5ff94b614c32bd5f8e6f
+SHA512: 6e1bc77e6da41cb957b32afc67310323f6beb730177d194806fe6b5fd8b09142cc87aa761998a4c13d2a5c11617e434090f2bdc6bd84c7ca16e3edce0f5007e2
+Description: IULinux APT archive public signing keys
+ Provides the public keyring used by APT to authenticate packages
+ distributed through official IULinux repositories.
+
+Package: iulinux-release
+Architecture: all
+Version: 0.1~alpha1-1
+Priority: optional
+Section: admin
+Maintainer: IULinux Project
+Filename: pool/main/iulinux-release_0.1~alpha1-1_all.deb
+Size: 732
+MD5sum: 35142a85ce91dc8a12cd90658db10335
+SHA1: 8dd0be7deaaae17a54d93e6f462bca89674e9c7d
+SHA256: c5bc15296aac20a3e03b12f0b9749327926d7253f449856e8be60f6d1b909b7e
+SHA512: 2237bdb4427a2f498ec6ac4b6a8db860faf67b1333d8e0fa73b400f08004837b73e41be098fd2bb914155ae899219eba8908a0cc12848505fcfd339fba8ba9bd
+Description: IULinux release identity and update channel metadata
+ Provides the installed IULinux release version, channel, and Ubuntu base
+ information used by IULinux system and update tooling.
+
+Package: iulinux-repository
+Architecture: all
+Version: 0.1~alpha1-1
+Priority: important
+Section: admin
+Maintainer: IULinux Project
+Depends: iulinux-archive-keyring (>= 0.1~alpha1-2)
+Filename: pool/main/iulinux-repository_0.1~alpha1-1_all.deb
+Size: 812
+MD5sum: 0ac8297d1c4c211035809a83083d5184
+SHA1: 3651ed7666970ac57512e6baff988e98f99ed35b
+SHA256: f7aa256d86711a0e5a5b1ec220844f2f80d5fe47b363277d4c68a1094d1a60d7
+SHA512: a2bd0e92c750f3f082ca87daa2fb00471506e6628f3c13569a22486352043cb6417cd8e6e2df6a1d83adda43220b58c405fa5b514e5b7a345df766b0f7822c84
+Description: IULinux official APT repository configuration
+ Provides the authenticated APT source configuration used to receive
+ official IULinux system and application updates.
+
+Package: iulinux-system
+Architecture: all
+Version: 0.1~alpha1-2
+Priority: important
+Section: metapackages
+Maintainer: IULinux Project
+Depends: iulinux-release (= 0.1~alpha1-1), iulinux-update (= 0.1~alpha1-1), iulinux-repository (= 0.1~alpha1-1), iulinux-archive-keyring (>= 0.1~alpha1-2)
+Filename: pool/main/iulinux-system_0.1~alpha1-2_all.deb
+Size: 676
+MD5sum: dc727b7ad6f3e1c8687b2f9f7d510440
+SHA1: f49eedf19c3d0b19ce78376bdc2591f164bd9d3e
+SHA256: 7b4cf2d1231d0ee24c529c180f4c09e611e3c683cd411426920dc9b89654bfdf
+SHA512: 9e1b1a3b482f639918751a1e65508eade75453b1e13dd77bed3fd3203bb9122effdbefa505ac399aa7a2068188b89bed83b5aa0977bf4bb5f9729ec11956d866
+Description: IULinux supported system metapackage
+ Tracks the core IULinux components required for a supported installation.
+ Upgrading this package allows existing installations to gain new mandatory
+ IULinux components without reinstalling the operating system.
+
+Package: iulinux-update
+Architecture: all
+Version: 0.1~alpha1-1
+Priority: optional
+Section: admin
+Maintainer: IULinux Project
+Depends: apt, iulinux-release
+Filename: pool/main/iulinux-update_0.1~alpha1-1_all.deb
+Size: 1270
+MD5sum: bb3b5d01022f0f0f6596b4b5e5eff68e
+SHA1: 8b04b7f0ebd0464ede54c6f5f909940268db7e63
+SHA256: 897c8f113c6b7f462069c4a67923250467de2fedd5d439ecc45879ee5ca31253
+SHA512: c8b0ffdcf58b28e9238adeb392598ceb3c9ed1be1afd95c2c26db075735c4d0674d82588c43cfdbe36026d522cc85c444d74769b998ab8fadedb51c65473e598
+Description: IULinux system update command
+ Provides a thin IULinux interface over the standard APT update and
+ full-upgrade workflow.
+

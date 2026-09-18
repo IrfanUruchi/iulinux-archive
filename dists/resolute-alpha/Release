@@ -1,0 +1,19 @@
+Architectures: amd64
+Codename: resolute-alpha
+Components: main
+Date: Fri, 18 Sep 2026 11:03:17 +0000
+Label: IULinux
+Origin: IULinux
+Suite: alpha
+MD5Sum:
+ e38270a7b9ed9ca51c53fd30cff0cda2             3675 main/binary-amd64/Packages
+ 37e531d8841996f1afdde900dd282eee             1637 main/binary-amd64/Packages.gz
+SHA1:
+ f261bfe3bb287cac57ce5361c8572bb9583aafd1             3675 main/binary-amd64/Packages
+ ba0b641747407ad8ab7b75bdc0c7610f3a21b2dd             1637 main/binary-amd64/Packages.gz
+SHA256:
+ 902079147bf12f7feb4c37b15bef2c69db89a43cd010ed57e71fc20b95ee3285             3675 main/binary-amd64/Packages
+ 6fd6ef67a54363863a084e1648fed0dd73f5031cdce44051eb5ba424f305b4e3             1637 main/binary-amd64/Packages.gz
+SHA512:
+ 78362bc853043adfb70c1400bf6e9a8218961bed4be4e616d9297e8d083cf287f6a6960d3eb7d7f68fc1480fe54eedfe5a37403962f73a5d8cce68d2cfab2c61             3675 main/binary-amd64/Packages
+ 96a08ce5a23bbe7e3f430c6b51cea28e5132e3f7520825336754635a8cd94e5fd6bea10c96588a544e9b551bcffcc7b7bea4b9a36dd546947d66ca184fabf3d4             1637 main/binary-amd64/Packages.gz
