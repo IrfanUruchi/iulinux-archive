@@ -30,6 +30,22 @@ Description: IULinux release identity and update channel metadata
  Provides the installed IULinux release version, channel, and Ubuntu base
  information used by IULinux system and update tooling.
 
+Package: iulinux-release
+Architecture: all
+Version: 0.1~alpha1-2
+Priority: optional
+Section: admin
+Maintainer: IULinux Project
+Filename: pool/main/iulinux-release_0.1~alpha1-2_all.deb
+Size: 738
+MD5sum: bf11f17f6f1bf55546907bec1e384992
+SHA1: 538e7fc9b8c0c91bc1948f4ae99bf94e91d057fd
+SHA256: ea2550bbb66d641b60ae46bc85fa35fa9c63d41497dafcc0d4b4347946da26bd
+SHA512: 807c86338ecc4b781bd4da5e1344ab55da610f625c88c09ab75c1d6b691fd2110e71d91a84c5f1f0d593ed640603c621882010cf43890a97197aa0d2863982f2
+Description: IULinux release identity and update channel metadata
+ Provides the installed IULinux release version, channel, and Ubuntu base
+ information used by IULinux system and update tooling.
+
 Package: iulinux-repository
 Architecture: all
 Version: 0.1~alpha1-1
@@ -60,6 +76,24 @@ MD5sum: dc727b7ad6f3e1c8687b2f9f7d510440
 SHA1: f49eedf19c3d0b19ce78376bdc2591f164bd9d3e
 SHA256: 7b4cf2d1231d0ee24c529c180f4c09e611e3c683cd411426920dc9b89654bfdf
 SHA512: 9e1b1a3b482f639918751a1e65508eade75453b1e13dd77bed3fd3203bb9122effdbefa505ac399aa7a2068188b89bed83b5aa0977bf4bb5f9729ec11956d866
+Description: IULinux supported system metapackage
+ Tracks the core IULinux components required for a supported installation.
+ Upgrading this package allows existing installations to gain new mandatory
+ IULinux components without reinstalling the operating system.
+
+Package: iulinux-system
+Architecture: all
+Version: 0.1~alpha1-3
+Priority: important
+Section: metapackages
+Maintainer: IULinux Project
+Depends: iulinux-release (= 0.1~alpha1-2), iulinux-update (= 0.1~alpha1-1), iulinux-repository (= 0.1~alpha1-1), iulinux-archive-keyring (>= 0.1~alpha1-2)
+Filename: pool/main/iulinux-system_0.1~alpha1-3_all.deb
+Size: 682
+MD5sum: a41cca048c93f743e3ca9b826762268e
+SHA1: db3a30cd6756b56985c02c4eb77c441ef5a0d721
+SHA256: 6563b070c156623c6afb481d12eeb6111aaa4d9ebad43467e84dffeacd20ef6d
+SHA512: 830e5ccfec4bd517d7eb619d68cf876eed2c08b2d8fe448039b7e00cce32acc2e6896dead4bf3849e3daab26dd35d930f816701fa9c6892b474ae64e8d66fa3e
 Description: IULinux supported system metapackage
  Tracks the core IULinux components required for a supported installation.
  Upgrading this package allows existing installations to gain new mandatory
