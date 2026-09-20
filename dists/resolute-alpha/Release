@@ -1,19 +1,19 @@
 Architectures: amd64
 Codename: resolute-alpha
 Components: main
-Date: Fri, 18 Sep 2026 14:23:02 +0000
+Date: Sun, 20 Sep 2026 14:36:02 +0000
 Label: IULinux
 Origin: IULinux
 Suite: alpha
 MD5Sum:
- f4136d572e5b05766027fc511028e6a6             6890 main/binary-amd64/Packages
- 4228d5fc950254e4bd56eb14ce9e4718             2395 main/binary-amd64/Packages.gz
+ c79bef66d96d7cd51f03299563d01ca6             9721 main/binary-amd64/Packages
+ a7c9f311014139879d85fb6a3b670af1             3248 main/binary-amd64/Packages.gz
 SHA1:
- fff1583647d7cbacc85a18fb774078a964ab42c0             6890 main/binary-amd64/Packages
- 3121bae97326e4b51a15e351c71f80a28f14f86e             2395 main/binary-amd64/Packages.gz
+ 448d0e3fd74e04100128689048b1d84daf3a504d             9721 main/binary-amd64/Packages
+ f04b95d19a22504586defbad0f87de031f406a1e             3248 main/binary-amd64/Packages.gz
 SHA256:
- 5735408a0af70b15f76708d855461e36e584294fcc77e9bc5f160e9c2112eccb             6890 main/binary-amd64/Packages
- 7a613f7f538a87bee19b873a8a7cfeed1e57fe3a44dcc0f06b27f8c646f9dd11             2395 main/binary-amd64/Packages.gz
+ 78d56974e63a23b3baad8bd5f039aa2f9a9dd1e35ddfad9e1b87cbe6cab843ce             9721 main/binary-amd64/Packages
+ 234ee6228d8d157892a85c73fd4fb9c8c8192f8e57ab8aa1c8bd276e0afa3799             3248 main/binary-amd64/Packages.gz
 SHA512:
- 2ce0771427d04b242f2af21f6260f2579d56f14f813f9549005f0861a5e58897fec64577fd652b53a6e5b2d5a88318976260783523a1b399dc1dd576adff6bd9             6890 main/binary-amd64/Packages
- c026afce34f81bdbce5cbaba930ab4e69034d45641ea416243eced26e1b7f1d0a33960d45780c86d04420ec3becc6687125f1e0f791194a96e40e29fe89d060c             2395 main/binary-amd64/Packages.gz
+ bbdb3afff9895e8aef10a3015c3bee09b302aaa79f67d618ca64863ec38c6dfe747ac82caa4256b4c1841c3eff9fd5c158e82f2702c1a304a88922138d943a02             9721 main/binary-amd64/Packages
+ 7ce9870f174df4230d6c59dfe3bb7b590542710eab521002a165028d1058fe5975e46f39829a142cb88271e41b3d436997916f4174ffb012d6cd941876fbaf59             3248 main/binary-amd64/Packages.gz

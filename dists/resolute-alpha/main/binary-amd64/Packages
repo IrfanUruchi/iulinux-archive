@@ -14,6 +14,41 @@ Description: IULinux APT archive public signing keys
  Provides the public keyring used by APT to authenticate packages
  distributed through official IULinux repositories.
 
+Package: iulinux-archive-keyring
+Architecture: all
+Version: 0.1~alpha1-3
+Priority: important
+Section: admin
+Maintainer: IULinux Project
+Filename: pool/main/iulinux-archive-keyring_0.1~alpha1-3_all.deb
+Size: 2948
+MD5sum: 3955bd381b609ed1a7c647c33caf2fb4
+SHA1: c2d7c8d51c776ca947f6918f44863d10698738b0
+SHA256: 8f9c53a9ea2b022322a276e7845d0833a5070eea97368d64cc6baccc847f3f97
+SHA512: bf100ebf527123cdb7ee3d50ad78fdc08598da95e01b61b2317b276b53482b4dd195d739c0334b5d9f9494dd761e27232e49cdc249f9db005a87fbc7e063c76f
+Description: IULinux APT archive public signing keys
+ Provides the public keyring used by APT to authenticate packages
+ distributed through official IULinux repositories.
+
+Package: iulinux-desktop
+Architecture: all
+Version: 0.1~alpha1-1
+Priority: important
+Section: kde
+Maintainer: IULinux Project
+Depends: plasma-desktop, plasma-workspace, ptyxis, xdg-terminal-exec, power-profiles-daemon, python3-dbus, python3-gi, python3-pyside6.qtcore, python3-pyside6.qtgui, python3-pyside6.qtqml, python3-pyside6.qtquick, python3-pyside6.qtquickcontrols2, qml6-module-org-kde-kirigami, qml6-module-org-kde-plasma-plasma5support, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-window
+Filename: pool/main/iulinux-desktop_0.1~alpha1-1_all.deb
+Size: 1414792
+MD5sum: 587736bddb0146a1d3a5e33d0e95ff71
+SHA1: 649a25cb020d1844b29812eba353b642b564513a
+SHA256: 71a1490bc4a5fb6bb3acac3433c3040c5c1c0c67cc48ea81a725fa23368d8571
+SHA512: f6354458dcda584945785886f29e04d1dd9ebda5956803e30a5cb3cc6b9bd4a1cf9c094667985952278d4c8ff70bf6c6c9cf923785679b2457399469941c81eb
+Description: IULinux desktop integration
+ Provides the supported IULinux Plasma desktop integration, including the
+ IULinux global theme and panel layout, desktop defaults, IULinux Settings,
+ performance integration, Ptyxis terminal defaults, and required Plasma
+ widgets.
+
 Package: iulinux-release
 Architecture: all
 Version: 0.1~alpha1-1
@@ -128,6 +163,24 @@ MD5sum: e296f57931480f1764ba82cd84166826
 SHA1: 89999aff47c87ec6effb812c3412ee04d8e2e041
 SHA256: 50c4b6f620ae7b734bf7b14072cb3f833b825fd5ffbaf01ad29ce3d042b7dd61
 SHA512: 0275774d8b36a4ac9e7e1f103958ec09e05f237d7e27234dcdf67601465f8850f1feb901b0def20aa0d0a464a5a5c04fbd210ecca569b124d82d99ca0372ed73
+Description: IULinux supported system metapackage
+ Tracks the core IULinux components required for a supported installation.
+ Upgrading this package allows existing installations to gain new mandatory
+ IULinux components without reinstalling the operating system.
+
+Package: iulinux-system
+Architecture: all
+Version: 0.1~alpha1-5
+Priority: important
+Section: metapackages
+Maintainer: IULinux Project
+Depends: iulinux-release (= 0.1~alpha1-3), iulinux-update (= 0.1~alpha1-1), iulinux-repository (= 0.1~alpha1-1), iulinux-archive-keyring (>= 0.1~alpha1-3), iulinux-desktop (= 0.1~alpha1-1)
+Filename: pool/main/iulinux-system_0.1~alpha1-5_all.deb
+Size: 688
+MD5sum: 7238a1660f1f04f17f51b9d7c5826715
+SHA1: 96f9de51f256053c113b2b1b40675f34635ea70f
+SHA256: 91f2915e65042dea7d84aa8d86e69352bd175a6c87f1672ac115be04bda20d88
+SHA512: 8c7e63ae5064144dc594127204b4c77ada2cff7aec9457cdc9ff912995b8cb5193635db67c63bb117ef65a8e446895df1711b46514617feab073920bf85745c4
 Description: IULinux supported system metapackage
  Tracks the core IULinux components required for a supported installation.
  Upgrading this package allows existing installations to gain new mandatory
