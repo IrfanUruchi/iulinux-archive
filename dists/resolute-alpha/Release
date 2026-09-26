@@ -1,23 +1,23 @@
 Architectures: amd64
 Codename: resolute-alpha
 Components: main
-Date: Tue, 22 Sep 2026 20:47:51 +0000
+Date: Sat, 26 Sep 2026 13:46:17 +0000
 Label: IULinux
 Origin: IULinux
 Suite: alpha
 MD5Sum:
- f546c9cbd33504841d53d59247e83fdc              145 Release
- b3199af5164feea947ed5e65d9c4379e            11968 main/binary-amd64/Packages
- 1105fe584b4ffb2d1480c66a01bef6e0             3693 main/binary-amd64/Packages.gz
+ 975f01a0fdb494294d685eabdefd3c7e              145 Release
+ 4af9786533e2984469d12ab4cc11fb8c            14215 main/binary-amd64/Packages
+ a5b2959cfe90feb77a707a23ad76a771             4065 main/binary-amd64/Packages.gz
 SHA1:
- 1b4c20482ea22c80cd33d88e4e337301a2782ff2              145 Release
- f3b7a7c46f2b3d767ddf8c0e2dbf5fd7113ef946            11968 main/binary-amd64/Packages
- c26cdc1ffbf0820b6c53e5ab4ffa7da3b6d3c611             3693 main/binary-amd64/Packages.gz
+ f51d912e4548587152a8e98f88486b6dc202ca8f              145 Release
+ 4627bb27dac38a06acb7834e0c09627c126b14d6            14215 main/binary-amd64/Packages
+ 959f590e2c89f046ab14aba170f55933b922b427             4065 main/binary-amd64/Packages.gz
 SHA256:
- 5f634edc570bb84ddfd05e91af065283b24518e1eb98f76b715b9f052bdec247              145 Release
- be6823715e2d1bc18fe88a8d01573e33915ff54b8d0aefa3995e57e405131a2d            11968 main/binary-amd64/Packages
- aa73cd5842cc336efe3271b94b224acb15950781a4b0afa317cd716c590ee430             3693 main/binary-amd64/Packages.gz
+ 53c68361497080a57bc9970e1fcb3fb5af3c6364fc756d579cc21c8c0984f1a7              145 Release
+ 5ae29c87dc632ee2b392a6950def50d5a24bc25267daafcf90acfa7a4a38f162            14215 main/binary-amd64/Packages
+ a18f7353316cf076fd84ed72a16e9a31c6a57e88bd2fc7df079ebb9d5b94b3b6             4065 main/binary-amd64/Packages.gz
 SHA512:
- 8110e12a2d0d955fb9ded2f9ac5bec1b654419cbf5a80dbd235e59b0519ee24e64c33b9f1b0bf1fc77eefcda6408e7aa1e60f6dafd53544cf5d9b14487e46cc6              145 Release
- 75400a3ad449733a93ed2aca05c33a705c8a2c86a59fc9426737633e443acb24b399524b9f64491f417de30f4b83c453af56499a7e218f3410636ace4525c268            11968 main/binary-amd64/Packages
- cdbd9935337b51c45e750a52e8044ca9b2bc28bc26079b207c659a52097d75c92c3de3cf608081b24ed45fe2e8a045421090d5739d81877f28529f50ec1000f6             3693 main/binary-amd64/Packages.gz
+ a95f9209871f3b8dde53411f924bea66930d3f2eb7e8d38f65179d272ac59ecdb014c754fa05bc2c73e32af67d4e6d9c17b5ed372d41c407455f81709cdf69ad              145 Release
+ 9f49ffa8d754b0cfa3cf454ec23304fdabe15ac974186492f78e06d739d72989ca46b6a5b97a1eef76c67aec77940afe092d2578f6778f4e4188a7ffd8895075            14215 main/binary-amd64/Packages
+ 71d00844464e0b8a775df7252c3e0bf4265f142b4239c0626150b3f658174b8732573515c1e1c4fda1435b9291ec727e55b311fdcb99f45c6ac7ddd302cf0494             4065 main/binary-amd64/Packages.gz
