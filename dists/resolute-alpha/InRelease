@@ -1,42 +1,38 @@
 -----BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA512
+Hash: SHA256
 
 Architectures: amd64
 Codename: resolute-alpha
 Components: main
-Date: Thu, 22 Oct 2026 11:51:00 +0000
+Date: Thu, 22 Oct 2026 14:06:49 +0000
 Label: IULinux
 Origin: IULinux
 Suite: alpha
 MD5Sum:
- fd7c97abf653b17d99eef129d09db2c7              145 Release
- a6a15a61f90a4556e1c3be7b88a15c89            25626 main/binary-amd64/Packages
- 76283c13d3f1d543d85de6e913212758             6026 main/binary-amd64/Packages.gz
+ 8c116aa403844174dace23d470d4c0ef            27956 main/binary-amd64/Packages
+ 110d9c109869f7f50e3feb3c4b8dd996             6387 main/binary-amd64/Packages.gz
 SHA1:
- 6eaa53756cd44a60443b3adb3506a41df5cde151              145 Release
- 2dba92b1b06b702512991f22831e097ec77348ea            25626 main/binary-amd64/Packages
- d7917a573c16b3ed607849b30fa91f4bc41363af             6026 main/binary-amd64/Packages.gz
+ 4d14f6f91bfd293c8f4561dcaf028f4e43f4f813            27956 main/binary-amd64/Packages
+ 59bf16fcf0f8c6bcc967103aeb9f92b1b0576a53             6387 main/binary-amd64/Packages.gz
 SHA256:
- afc344b079a58aaddd3a840d4d0c0d27f13d59dd0ca016759ebf0c190b9394db              145 Release
- fc18ddd8c62b43c1ca5f2da4e0e718af58aa8d18022b9eda38cf84998f0fc80e            25626 main/binary-amd64/Packages
- a5dddf70482bd99782b57bae8c80adfad4dd0785213071849725c25586d636b8             6026 main/binary-amd64/Packages.gz
+ ec0934682dafea6cb1c142a73810095f3b8dd27b7164ccacff113de209d3dc77            27956 main/binary-amd64/Packages
+ 827398ed124e9fed58bd51826dcb9ec4cbf13343884bfbe0483c6dfe4df3d06e             6387 main/binary-amd64/Packages.gz
 SHA512:
- 3615a409e2ced04c9b2278527205f7c4383dcb4b15a2c80cba5abeb1863abb166be8f9824af75b5f097ddf3e692c554915b5598bef4114fe549ed062eac43f63              145 Release
- d3a9f326f95cb3d784c09aabe6c1f569811964c8bad65db54ac66ebe5b703cb55c6013d858a7a23a8d6b3f3951788132adaa43cd5b1db2cf79d47ff398ce2f57            25626 main/binary-amd64/Packages
- b2f60796b0d468f67b8d46eace8131b1974433f37d9aece7a369095eba230b56020464a459b6cc5a5fe5b5760d96e09c34387925e961793df9615ec34e53cc5f             6026 main/binary-amd64/Packages.gz
+ 6de60cc2bed5ea3ccf3178999f0ebfb7c7c1ad9c7633836972722055b3d88d8c3a835d80d9cfb550f7358020c5be3a0aefc73e47c47797f1e5c06fb233072d9a            27956 main/binary-amd64/Packages
+ 7678b5cfce21ac5a4ba3e3b0c34475bbf84d74af238f230984d2aa512babf1e95e020b15db71aa14b4e32dc4835efee9f5316695867d287f44dab93984c8377e             6387 main/binary-amd64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEQGGMnWZCArhZ/LohCa/teZV2wusFAmrZ+ywACgkQCa/teZV2
-wuvIyxAAka+AnVmZA6P+JnQYWD6Vhs7ES2Kfp2X5gXSIwVS0jNB4sl4+xpk+xX6K
-McmR2dvqzPQUo8/q/h0y275LfzshctGQQbimBys1RT+HMEoEikucbuh+eTa3OY2E
-SHFs+9uFOtzeOt+m2kHcXebR6BIxUpIDlczhzstOCpADPkjU7+ihFVH+RksHgnd8
-ApsHYM1nPOannJ5wjuhkVCav6cHM8jKFcXNWeQ7+jq7k7ahajAmZmesJAt74Uhrh
-8gKmHvc7I54S5Lx5G/wA/GybkACKrcLrjxuFaJq8wt7cAY2t2bIGtPva4YlB5uVn
-3KGeWUrkGaU9YN/mrjHQv37q4XCV6HnCwsv2bsdXrXNuXmaGSu212/ITri7W5aqV
-48tqwN0lSAk6gvkVpu5cRYKOdKBMJtt5k+hrFtyxCaM8ICbFlR/57p5buLMFUXDB
-5zC+8Wn8U6SbIoZ9D7W2SdhCtWt2lCTImgFM2gwYwwEoo5njcnHdPbf4+aW21j2e
-3pRakly6LSi17tmXvecuNwGUGfjwtROgOBktjHAJYldIk+7mU5My8LFXzNuIUH8M
-mBznGg2Z4Sm8+QDGhCKZ9jHvGfZuYu6woC3IWOksCvUAeL8UR7ZEllg/led46Y6c
-+d6zDxLGkhh9Z6q2CvfiZY8hqfqMZ3Hzacl4Ka1fg8WbGOMSZS8=
-=q14F
+iQIzBAEBCAAdFiEEQGGMnWZCArhZ/LohCa/teZV2wusFAmraGHkACgkQCa/teZV2
+wuumbQ/+MQQ7f+xZOazim/0d26YtRScXUnHQ3rXJtIYO3MwfUFiGp4v9TCbtRNHX
+0e1L6OdVuBJm7HCB7k39TlDdLSovIp6KoVnShTxoSmBNKKcBpHUTdJOj3ld1Wqr2
+wjc+tW2ZAe/6fLhcWcBufiWnL9kTPUGvcW8Q5ayFozOssvt42RPft6EmnwFm1zAg
+xR5wdrT5M4v4h5Gy4MOFT3rcHI4A+nhFjigTakLLG6VdiFm1ap0FwllNs/MQ6BXY
+/AifDBkHrvn+Sbo3nateUOwgPnH8/xZeN4BmsE7kYGw1UHnMA2Ga+vy+/2kuwI1h
++UlNr/joS9olo9SUnH+TwZvPA4VK8Hu5I961TdNPc1vUs5A5dcy3ABO1G84mke7W
+4AFOwLg4vBppniUObrNY2Lk73UcDrFDt8Cey1MiCDklxl+Cu5xzNirNLa8qZQhu5
+umOpLyGI6MvDY7Jzkrxq28HX8V1rg2UUJRjt32LencH7UQi2Hv2Egcna76+pzOEl
+KVLaiPfZ84z+PthtpW65B9JwU9HRFVe3lGMQVb0ALF/rYUjxNHuSsJZpRvxIBUmD
+JDhCQzuWhzMOiAiUFVnlRf15IuMX3fjL2ps694M8PI1vzGUL2TC7jAOusqN230ty
+cqIuFDi9natzk31vgS7Bb+55DIE+b7m4gKewWAK0JzHCoXOxebA=
+=RqPn
 -----END PGP SIGNATURE-----
