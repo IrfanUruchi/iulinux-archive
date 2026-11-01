@@ -574,6 +574,24 @@ Description: IULinux supported system metapackage
 
 Package: iulinux-system
 Architecture: all
+Version: 0.1~alpha1-30
+Priority: important
+Section: metapackages
+Maintainer: IULinux Project
+Depends: iulinux-release (= 0.1~alpha1-3), iulinux-update (= 0.1~alpha1-1), iulinux-repository (= 0.1~alpha1-1), iulinux-archive-keyring (>= 0.1~alpha1-3), iulinux-desktop (>= 0.1~alpha1-18)
+Filename: pool/main/iulinux-system_0.1~alpha1-30_all.deb
+Size: 930
+MD5sum: 7ed2dc734c33bdea2749a311c0496b97
+SHA1: e29da88943ad72d074e3c5fee5d5d84dc522b613
+SHA256: 165e04d99cc5629e82e4ca2e43c0f975e7e092653bd34ba5ecbd25a88a0fdb4f
+SHA512: 31f9b034339356b2d9d56451ab62a70e73004b16bf9e436948a5cad961e4a7b438eb3f91435598fa443b9fc85e7476c4932fd44e9fdcacdc5fa2139131bd6c0f
+Description: IULinux supported system metapackage
+ Tracks the core IULinux components required for a supported installation.
+ Upgrading this package allows existing installations to gain new mandatory
+ IULinux components without reinstalling the operating system.
+
+Package: iulinux-system
+Architecture: all
 Version: 0.1~alpha1-3
 Priority: important
 Section: metapackages
