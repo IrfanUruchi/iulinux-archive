@@ -1,42 +1,38 @@
 -----BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA512
+Hash: SHA256
 
 Architectures: amd64
 Codename: resolute-alpha
 Components: main
-Date: Sun, 01 Nov 2026 07:50:04 +0000
+Date: Thu, 26 Nov 2026 14:02:56 +0000
 Label: IULinux
 Origin: IULinux
 Suite: alpha
 MD5Sum:
- 751056e9bde70081384688e4ee4c75e6             1455 Release
- 14bcbc416fa57cf3db0a4d3bd8d9646e            40687 main/binary-amd64/Packages
- 1976a5411bb9e5cb0c37502c1a08e872             8473 main/binary-amd64/Packages.gz
+ c62c339cccbdb2ec91b14f7ab20c4e1d             5996 main/binary-amd64/Packages
+ e7c4f1f10f57fd8d948e944d3ebcafc5             2654 main/binary-amd64/Packages.gz
 SHA1:
- e832b7d4dfc72fbd44b2ce588be3d2b3173c2ebc             1455 Release
- e2eeb24ae6bc991b70bf2c869424708464977140            40687 main/binary-amd64/Packages
- 1c07d625e2a3bcc06f712a8cb91de77229baab8c             8473 main/binary-amd64/Packages.gz
+ 541a958a9aeea95a800a1f4dae73a9908725f3cd             5996 main/binary-amd64/Packages
+ 3cfe1d2815026cea8b6250341044223a54571ac8             2654 main/binary-amd64/Packages.gz
 SHA256:
- 537cd4f2a1acab587738d730bb134ce75d9b16fbf4bbc83ac62b6deaece8cc94             1455 Release
- 9430b4b2fc58be40536ff083db04399e23673ce680a88107633a5fa757e2bbf5            40687 main/binary-amd64/Packages
- 4218a2963632d32bf7c12fb20e8411dbb78bb30a82b15c2694cd011527da64ef             8473 main/binary-amd64/Packages.gz
+ fa8b6e679c134a8dd8aafd4568d3ec227cf07e25e9b3002202512207ae46ad0c             5996 main/binary-amd64/Packages
+ 6b2bd65c35e68d09c88809e2aec5fd21a24ae32fb72e12e67e2ed6655e00c8ab             2654 main/binary-amd64/Packages.gz
 SHA512:
- 49f86f3b59ba93ee39fffb5d8bed7e25911b879e3b2a058d5fd175a5c14178f9a63935e08ace47b47af38c82cd36c44d6f214d400071a7dee002e4b9ebcdcfdd             1455 Release
- 6ee85ce479e7df914f586b24905a5563b57cca7b7945db990a1fe80940ba1f2176062938d611dcebb7bdf5d8c84d0ccbc69bf993a6daee9917b9852d15b15740            40687 main/binary-amd64/Packages
- 403113936ea4d47a3436bac3c336e0735795e0c3b6531ba08c0d40f1826e427a945299c3bbca3a7399f728711ef361a2cea65fd6096a008a42574efb11040253             8473 main/binary-amd64/Packages.gz
+ e4f409e2a5b732f0492ac309a7f3628df95b8c71f1c49e3544a414426c778166a3db373b779a273f30365923a7be96c450630be06159bb4acaae3a3acbac2992             5996 main/binary-amd64/Packages
+ f56ea614f7c7520536deddf8ef11705698b6d37c02c50bd779304cc4167f6d7f1f957c31185c95690bf99f3cc583ba9b0f0ce28d62c097f07aad2856054feb36             2654 main/binary-amd64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEQGGMnWZCArhZ/LohCa/teZV2wusFAmrm758ACgkQCa/teZV2
-wuvV/Q/7Bf4jFsb3Su++zpiZLVtkNLMLzNE5X1yl918+lqy58Tsi/Xi4GqGmlgLy
-7aNscwBEibq5bBuuKpSKHs8j1tqnokXMT/Raf2RirHoKGvmf8RWoEBMc6/J68oLo
-ZQSx7st7m23JiMtwyPnj+hI1C32mtaVxj/VgtwTrVXCPOHIMkDQhaR9ywAUOUwGQ
-59/Hleamd9SvYOKcNUmZh1urK7GX8bMtvpaR1iyVvNr+xJSUwmuNr+AZCdE/U+hk
-0X6UP3zQsCVKus+KcFx2e601c7FbMUnWG7AuYq154eX/SNNSvEWgEZ2qDthfEwRt
-pRuvxLk9x0awXhn5aj4HU9zRehhKTPVTHOirL1LRKCOAKhfhk5094ivlrGMjikFw
-BPCvH7J2q1q0kJkwaWc2JGY465wn2ylM93X58PPR9Vf6QjiNidzUAzCKApjVMK9b
-GTcRm21W6APg8m7npgfNzpLxGqqSBrK7hR2aEFhFujneIZVUNJ5jm2hBiFEpDnYm
-ORmbtQKqaCYhddsS3CarcxBueOdfqAqrpowcLjVCHrPYvFmAJ4dWoSnpevnt7VX0
-wvlKU2KlpJN5C7wJzjNWJ5pBH07akFyfP3O7Hw4axhAeXP+VmuA0WuyEd3NSibP0
-dB1qTNcPSQhx7Y2egmY66aYEgjk84lwY3+RuJZO/C78rAV2giUs=
-=TNE8
+iQIzBAEBCAAdFiEEQGGMnWZCArhZ/LohCa/teZV2wusFAmsIPBAACgkQCa/teZV2
+wusYfhAAhzbALwQjYpoxDKNmFmdHcy3UftQBF5TSn2j01cKcPs5G5wVe64VNM7z5
+KXjV6EgFGDATuNlhi+rCxc701/KD1cwHH4bGgPEpnslKWEa4UJz25hETSjP0bhT6
+g/wx2ex/miyZNKIpD57wllwopptKbqAbGdpFqmPVJsilfvBivNxQ10C6BATJF2XV
+pd+jUevti7CxfBMfwIDL6KGn52UrB+Q03i2XcP25TKp0ZhgQtOeB6r08/syWkKMo
+RE0WiCb7nbY8DN00LFhc41nEDFxsjSjmErETkcF1prMwnuOm/PRaPeHXR6wV+Wpr
+5N6AU6JSvMTvZr5mbuS7haYwknqH2yGWJF2sVH1hblkKSRutOFH5IjnQoKUQD/8v
+tMwpmRg6f2CCzo3SP+LgFiHsasyLwbSSY30Icj7zV5rkwA7zvTm5QxVXMKRjsXcx
+tudG3XFzGJdtD83xKCttV+FF1p0SNWJp9+FqUDd3g0isiR3Uxh8cG9i18uP4ZHBf
+yWkxajr8UWEx4tF7Uc/tR1wo6nCOfxSPwU4oNhATTu56KFq8COv+LVBNKsXcv6Tr
+AqK7dmH4qtVmSN93w1r5Hnt4+tv48IPqj7m3PqHikfQbAJnptoqTIlb2l8EV7M1e
+RwZrYbiu9Gmsjr535rMS3v4MbbyQ9q8YsFI8wZG1ZFmIFAuZ0tw=
+=voKa
 -----END PGP SIGNATURE-----

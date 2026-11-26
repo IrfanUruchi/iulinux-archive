@@ -1,23 +1,19 @@
 Architectures: amd64
 Codename: resolute-alpha
 Components: main
-Date: Sun, 01 Nov 2026 07:50:04 +0000
+Date: Thu, 26 Nov 2026 14:02:56 +0000
 Label: IULinux
 Origin: IULinux
 Suite: alpha
 MD5Sum:
- 751056e9bde70081384688e4ee4c75e6             1455 Release
- 14bcbc416fa57cf3db0a4d3bd8d9646e            40687 main/binary-amd64/Packages
- 1976a5411bb9e5cb0c37502c1a08e872             8473 main/binary-amd64/Packages.gz
+ c62c339cccbdb2ec91b14f7ab20c4e1d             5996 main/binary-amd64/Packages
+ e7c4f1f10f57fd8d948e944d3ebcafc5             2654 main/binary-amd64/Packages.gz
 SHA1:
- e832b7d4dfc72fbd44b2ce588be3d2b3173c2ebc             1455 Release
- e2eeb24ae6bc991b70bf2c869424708464977140            40687 main/binary-amd64/Packages
- 1c07d625e2a3bcc06f712a8cb91de77229baab8c             8473 main/binary-amd64/Packages.gz
+ 541a958a9aeea95a800a1f4dae73a9908725f3cd             5996 main/binary-amd64/Packages
+ 3cfe1d2815026cea8b6250341044223a54571ac8             2654 main/binary-amd64/Packages.gz
 SHA256:
- 537cd4f2a1acab587738d730bb134ce75d9b16fbf4bbc83ac62b6deaece8cc94             1455 Release
- 9430b4b2fc58be40536ff083db04399e23673ce680a88107633a5fa757e2bbf5            40687 main/binary-amd64/Packages
- 4218a2963632d32bf7c12fb20e8411dbb78bb30a82b15c2694cd011527da64ef             8473 main/binary-amd64/Packages.gz
+ fa8b6e679c134a8dd8aafd4568d3ec227cf07e25e9b3002202512207ae46ad0c             5996 main/binary-amd64/Packages
+ 6b2bd65c35e68d09c88809e2aec5fd21a24ae32fb72e12e67e2ed6655e00c8ab             2654 main/binary-amd64/Packages.gz
 SHA512:
- 49f86f3b59ba93ee39fffb5d8bed7e25911b879e3b2a058d5fd175a5c14178f9a63935e08ace47b47af38c82cd36c44d6f214d400071a7dee002e4b9ebcdcfdd             1455 Release
- 6ee85ce479e7df914f586b24905a5563b57cca7b7945db990a1fe80940ba1f2176062938d611dcebb7bdf5d8c84d0ccbc69bf993a6daee9917b9852d15b15740            40687 main/binary-amd64/Packages
- 403113936ea4d47a3436bac3c336e0735795e0c3b6531ba08c0d40f1826e427a945299c3bbca3a7399f728711ef361a2cea65fd6096a008a42574efb11040253             8473 main/binary-amd64/Packages.gz
+ e4f409e2a5b732f0492ac309a7f3628df95b8c71f1c49e3544a414426c778166a3db373b779a273f30365923a7be96c450630be06159bb4acaae3a3acbac2992             5996 main/binary-amd64/Packages
+ f56ea614f7c7520536deddf8ef11705698b6d37c02c50bd779304cc4167f6d7f1f957c31185c95690bf99f3cc583ba9b0f0ce28d62c097f07aad2856054feb36             2654 main/binary-amd64/Packages.gz

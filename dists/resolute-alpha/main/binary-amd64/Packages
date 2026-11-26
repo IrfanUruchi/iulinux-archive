@@ -1,21 +1,5 @@
 Package: iulinux-archive-keyring
 Architecture: all
-Version: 0.1~alpha1-2
-Priority: important
-Section: admin
-Maintainer: IULinux Project
-Filename: pool/main/iulinux-archive-keyring_0.1~alpha1-2_all.deb
-Size: 1850
-MD5sum: f87973cc27fd01df8d0c93b2619bbce5
-SHA1: 2f0715669bbf8cdca335b2bbb209aa2b640a7f09
-SHA256: b1895e16f7dee5c4d52970d7d8d77b335208fdab6a1c5ff94b614c32bd5f8e6f
-SHA512: 6e1bc77e6da41cb957b32afc67310323f6beb730177d194806fe6b5fd8b09142cc87aa761998a4c13d2a5c11617e434090f2bdc6bd84c7ca16e3edce0f5007e2
-Description: IULinux APT archive public signing keys
- Provides the public keyring used by APT to authenticate packages
- distributed through official IULinux repositories.
-
-Package: iulinux-archive-keyring
-Architecture: all
 Version: 0.1~alpha1-3
 Priority: important
 Section: admin
@@ -32,314 +16,23 @@ Description: IULinux APT archive public signing keys
 
 Package: iulinux-desktop
 Architecture: all
-Version: 0.1~alpha1-10
+Version: 0.1~alpha1-47
 Priority: important
 Section: kde
 Maintainer: IULinux Project
-Depends: plasma-desktop, plasma-workspace, ptyxis, resources, switcheroo-control, pkexec, xdg-terminal-exec, power-profiles-daemon, python3-dbus, python3-gi, python3-pyside6.qtcore, python3-pyside6.qtgui, python3-pyside6.qtqml, python3-pyside6.qtquick, python3-pyside6.qtquickcontrols2, qml6-module-org-kde-kirigami, qml6-module-org-kde-plasma-plasma5support, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-window, cifs-utils, kde-spectacle, pulseaudio-utils, appstream, gir1.2-appstream-1.0
-Conflicts: konsole, plasma-systemmonitor
-Filename: pool/main/iulinux-desktop_0.1~alpha1-10_all.deb
-Size: 1501486
-MD5sum: 7e9d8f1ca960058202b89b9d6e1c61fc
-SHA1: 9b6dcb6ad5f6fea41e7b50b6ba0e3e7872d12192
-SHA256: 00b28b6646bb501abb44b08e01f00d250638233d2c26cc408119b30ab17bfd99
-SHA512: 4f3a353d7a2ec697bb5f14abd0810d6128c822ec8e20208b80bcfbb37f9793f399d4360343cac5abf722259292e8a944afeaf8053ed04adffd887b0da1d26a57
+Pre-Depends: python3
+Depends: fwupd, plasma-discover, plasma-discover-backend-fwupd, unattended-upgrades, sddm, kwin-wayland, layer-shell-qt, plasma-desktop, plasma-workspace, ptyxis, resources, switcheroo-control, pkexec, xdg-terminal-exec, power-profiles-daemon, python3-dbus, python3-gi, python3-pyside6.qtcore, python3-pyside6.qtgui, python3-pyside6.qtqml, python3-pyside6.qtquick, python3-pyside6.qtquickcontrols2, qml6-module-org-kde-kirigami, qml6-module-org-kde-plasma-plasma5support, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-window, cifs-utils, kde-spectacle, pulseaudio-utils, packagekit, appstream, gir1.2-appstream-1.0, kde-config-screenlocker, kscreen, plasma-integration, kde-style-breeze, xdg-desktop-portal, xdg-desktop-portal-kde, kde-config-gtk-style, breeze-gtk-theme, ark
+Filename: pool/main/iulinux-desktop_0.1~alpha1-47_all.deb
+Size: 13629664
+MD5sum: 7be455dee5e4fd8701dd7c401a39c0cb
+SHA1: 5b34fc9c1a622cc59784ef3fc51507bc30a39ec7
+SHA256: 4bfe66c96ac340fbec636dd1bcd0a96e8ce428e732ea276412cd2586dd734ec1
+SHA512: 68a696612c32b8bf2e1f190dd47f5dddbc47dff67a36414cca6a5677f04b4d7e2c64f3ffd17fe7f8ab36e7e70c5a39e25c73da74317819e9a9834190ba0700b3
 Description: IULinux desktop integration
  Provides the supported IULinux Plasma desktop integration, including the
  IULinux global theme and panel layout, desktop defaults, IULinux Settings,
  performance and graphics integration, Ptyxis and Resources defaults, and required Plasma
  widgets.
-
-Package: iulinux-desktop
-Architecture: all
-Version: 0.1~alpha1-14
-Priority: important
-Section: kde
-Maintainer: IULinux Project
-Depends: plasma-desktop, plasma-workspace, ptyxis, resources, switcheroo-control, pkexec, xdg-terminal-exec, power-profiles-daemon, python3-dbus, python3-gi, python3-pyside6.qtcore, python3-pyside6.qtgui, python3-pyside6.qtqml, python3-pyside6.qtquick, python3-pyside6.qtquickcontrols2, qml6-module-org-kde-kirigami, qml6-module-org-kde-plasma-plasma5support, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-window, cifs-utils, kde-spectacle, pulseaudio-utils, appstream, gir1.2-appstream-1.0, kde-config-screenlocker
-Conflicts: konsole, plasma-systemmonitor
-Filename: pool/main/iulinux-desktop_0.1~alpha1-14_all.deb
-Size: 1512242
-MD5sum: 744f0f23c0d8e372dafacf97b03b1027
-SHA1: 14a1931b730874d6a6f0f29ca1c22547496594a8
-SHA256: 697c9f81b54ca9d56b918bc4a897814a900612540dabe86b1f12eb99e4356d17
-SHA512: f996afa12cdb60ef5aa6984949a134769009f4def399aea7a5fb014defbc20a1dd7aea3cbec7310f44ce0951b69835e9eb24d2605e190956834e599e8b27d558
-Description: IULinux desktop integration
- Provides the supported IULinux Plasma desktop integration, including the
- IULinux global theme and panel layout, desktop defaults, IULinux Settings,
- performance and graphics integration, Ptyxis and Resources defaults, and required Plasma
- widgets.
-
-Package: iulinux-desktop
-Architecture: all
-Version: 0.1~alpha1-15
-Priority: important
-Section: kde
-Maintainer: IULinux Project
-Depends: plasma-desktop, plasma-workspace, ptyxis, resources, switcheroo-control, pkexec, xdg-terminal-exec, power-profiles-daemon, python3-dbus, python3-gi, python3-pyside6.qtcore, python3-pyside6.qtgui, python3-pyside6.qtqml, python3-pyside6.qtquick, python3-pyside6.qtquickcontrols2, qml6-module-org-kde-kirigami, qml6-module-org-kde-plasma-plasma5support, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-window, cifs-utils, kde-spectacle, pulseaudio-utils, appstream, gir1.2-appstream-1.0, kde-config-screenlocker
-Conflicts: konsole, plasma-systemmonitor
-Filename: pool/main/iulinux-desktop_0.1~alpha1-15_all.deb
-Size: 1514528
-MD5sum: f4fbf3a14932acf2630a7f17103674a6
-SHA1: cc28dd6bd236ec161417200b577029f400776acc
-SHA256: 01bcf126eed3ffb94df95278ccecb81b269751821d4a3c8d11cbe0bd7688963d
-SHA512: 3b5bb10eb434c6825217d91469325786e227a7c06cec780516c71a2b99034b4ed1c03d102d292664aa61475da452dbb12e6cc5e19e52ba2d8769b16b3e4f015d
-Description: IULinux desktop integration
- Provides the supported IULinux Plasma desktop integration, including the
- IULinux global theme and panel layout, desktop defaults, IULinux Settings,
- performance and graphics integration, Ptyxis and Resources defaults, and required Plasma
- widgets.
-
-Package: iulinux-desktop
-Architecture: all
-Version: 0.1~alpha1-16
-Priority: important
-Section: kde
-Maintainer: IULinux Project
-Depends: plasma-desktop, plasma-workspace, ptyxis, resources, switcheroo-control, pkexec, xdg-terminal-exec, power-profiles-daemon, python3-dbus, python3-gi, python3-pyside6.qtcore, python3-pyside6.qtgui, python3-pyside6.qtqml, python3-pyside6.qtquick, python3-pyside6.qtquickcontrols2, qml6-module-org-kde-kirigami, qml6-module-org-kde-plasma-plasma5support, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-window, cifs-utils, kde-spectacle, pulseaudio-utils, appstream, gir1.2-appstream-1.0, kde-config-screenlocker
-Conflicts: konsole, plasma-systemmonitor
-Filename: pool/main/iulinux-desktop_0.1~alpha1-16_all.deb
-Size: 1515140
-MD5sum: be0edf8ba0afade6e328f073b55c0f64
-SHA1: f2d9768e0bd49f90523fe5b2740176bdec2ff9c5
-SHA256: 57069d909f868aef2bf5fb67f11c19e11fe23b7e366a27e3e15f6a32173d2e89
-SHA512: c74b987fb944af1e08e1d18534fc063900e9f0b24ccfde9206ce8b3141cf7ab3ac7e83415808ad4eb492f61d02941e530ed3145df1f68d077c3465a14b801b78
-Description: IULinux desktop integration
- Provides the supported IULinux Plasma desktop integration, including the
- IULinux global theme and panel layout, desktop defaults, IULinux Settings,
- performance and graphics integration, Ptyxis and Resources defaults, and required Plasma
- widgets.
-
-Package: iulinux-desktop
-Architecture: all
-Version: 0.1~alpha1-17
-Priority: important
-Section: kde
-Maintainer: IULinux Project
-Depends: plasma-desktop, plasma-workspace, ptyxis, resources, switcheroo-control, pkexec, xdg-terminal-exec, power-profiles-daemon, python3-dbus, python3-gi, python3-pyside6.qtcore, python3-pyside6.qtgui, python3-pyside6.qtqml, python3-pyside6.qtquick, python3-pyside6.qtquickcontrols2, qml6-module-org-kde-kirigami, qml6-module-org-kde-plasma-plasma5support, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-window, cifs-utils, kde-spectacle, pulseaudio-utils, appstream, gir1.2-appstream-1.0, kde-config-screenlocker
-Conflicts: konsole, plasma-systemmonitor
-Filename: pool/main/iulinux-desktop_0.1~alpha1-17_all.deb
-Size: 1515846
-MD5sum: 89120ccdb3d37ebfc4f0b98c42a2ea90
-SHA1: c8f2b391e0215f8203d51e762642824f646ff3f9
-SHA256: 30eb34f2c7b4ca941010c183a60535b00b98b3128da391de43256ab175167cfc
-SHA512: 03aab32a752328fef0cba18279adb884eda61c289f30845dd5c7bd740f11204858cdb2982d0bcc500a4af132b0e39ac937cd3e3a06bcac8e898ac0a586b8027a
-Description: IULinux desktop integration
- Provides the supported IULinux Plasma desktop integration, including the
- IULinux global theme and panel layout, desktop defaults, IULinux Settings,
- performance and graphics integration, Ptyxis and Resources defaults, and required Plasma
- widgets.
-
-Package: iulinux-desktop
-Architecture: all
-Version: 0.1~alpha1-18
-Priority: important
-Section: kde
-Maintainer: IULinux Project
-Depends: plasma-desktop, plasma-workspace, ptyxis, resources, switcheroo-control, pkexec, xdg-terminal-exec, power-profiles-daemon, python3-dbus, python3-gi, python3-pyside6.qtcore, python3-pyside6.qtgui, python3-pyside6.qtqml, python3-pyside6.qtquick, python3-pyside6.qtquickcontrols2, qml6-module-org-kde-kirigami, qml6-module-org-kde-plasma-plasma5support, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-window, cifs-utils, kde-spectacle, pulseaudio-utils, appstream, gir1.2-appstream-1.0, kde-config-screenlocker
-Conflicts: konsole, plasma-systemmonitor
-Filename: pool/main/iulinux-desktop_0.1~alpha1-18_all.deb
-Size: 1515776
-MD5sum: 827de9831d97b67f5eb5ec49b9fdae37
-SHA1: eb20686645032fa9f22f30dc8fd861f51d3e3540
-SHA256: 96f62fddff5c53264bebe43fb7047e3185d8559366f1ca2c30d3c18d459b8490
-SHA512: a9e5c375c9e23cd78682251dd1550f75d0d3f82dc5e1d587ebf1988e7d389bb4e1a10809cf0c60915eb09f71b2b3fe850546539cc27f500adedbf1c7a5878c8c
-Description: IULinux desktop integration
- Provides the supported IULinux Plasma desktop integration, including the
- IULinux global theme and panel layout, desktop defaults, IULinux Settings,
- performance and graphics integration, Ptyxis and Resources defaults, and required Plasma
- widgets.
-
-Package: iulinux-desktop
-Architecture: all
-Version: 0.1~alpha1-1
-Priority: important
-Section: kde
-Maintainer: IULinux Project
-Depends: plasma-desktop, plasma-workspace, ptyxis, xdg-terminal-exec, power-profiles-daemon, python3-dbus, python3-gi, python3-pyside6.qtcore, python3-pyside6.qtgui, python3-pyside6.qtqml, python3-pyside6.qtquick, python3-pyside6.qtquickcontrols2, qml6-module-org-kde-kirigami, qml6-module-org-kde-plasma-plasma5support, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-window
-Filename: pool/main/iulinux-desktop_0.1~alpha1-1_all.deb
-Size: 1414792
-MD5sum: 587736bddb0146a1d3a5e33d0e95ff71
-SHA1: 649a25cb020d1844b29812eba353b642b564513a
-SHA256: 71a1490bc4a5fb6bb3acac3433c3040c5c1c0c67cc48ea81a725fa23368d8571
-SHA512: f6354458dcda584945785886f29e04d1dd9ebda5956803e30a5cb3cc6b9bd4a1cf9c094667985952278d4c8ff70bf6c6c9cf923785679b2457399469941c81eb
-Description: IULinux desktop integration
- Provides the supported IULinux Plasma desktop integration, including the
- IULinux global theme and panel layout, desktop defaults, IULinux Settings,
- performance integration, Ptyxis terminal defaults, and required Plasma
- widgets.
-
-Package: iulinux-desktop
-Architecture: all
-Version: 0.1~alpha1-3
-Priority: important
-Section: kde
-Maintainer: IULinux Project
-Depends: plasma-desktop, plasma-workspace, ptyxis, resources, switcheroo-control, pkexec, xdg-terminal-exec, power-profiles-daemon, python3-dbus, python3-gi, python3-pyside6.qtcore, python3-pyside6.qtgui, python3-pyside6.qtqml, python3-pyside6.qtquick, python3-pyside6.qtquickcontrols2, qml6-module-org-kde-kirigami, qml6-module-org-kde-plasma-plasma5support, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-window
-Conflicts: konsole, plasma-systemmonitor
-Filename: pool/main/iulinux-desktop_0.1~alpha1-3_all.deb
-Size: 1418666
-MD5sum: 5b78cacfe8a35f31ac7800823099a987
-SHA1: 1144f425623aac965e812a2c9b14cff392729a27
-SHA256: 4fe0b6d78c037368d2503edcc861aed504e97e98722e41736b063c5c123c06d3
-SHA512: 3c2df85c1c61d7a9cce257d4177a2a16d94d19416d176910bd64a0a1fb25fd82fd3c32bd5ae3d4c83506a60fa4cb7e4fcb30c25677533f483a9bf94f0d069361
-Description: IULinux desktop integration
- Provides the supported IULinux Plasma desktop integration, including the
- IULinux global theme and panel layout, desktop defaults, IULinux Settings,
- performance and graphics integration, Ptyxis and Resources defaults, and required Plasma
- widgets.
-
-Package: iulinux-desktop
-Architecture: all
-Version: 0.1~alpha1-4
-Priority: important
-Section: kde
-Maintainer: IULinux Project
-Depends: plasma-desktop, plasma-workspace, ptyxis, resources, switcheroo-control, pkexec, xdg-terminal-exec, power-profiles-daemon, python3-dbus, python3-gi, python3-pyside6.qtcore, python3-pyside6.qtgui, python3-pyside6.qtqml, python3-pyside6.qtquick, python3-pyside6.qtquickcontrols2, qml6-module-org-kde-kirigami, qml6-module-org-kde-plasma-plasma5support, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-window
-Conflicts: konsole, plasma-systemmonitor
-Filename: pool/main/iulinux-desktop_0.1~alpha1-4_all.deb
-Size: 1421002
-MD5sum: 6670494fa2c08e42bf6ba2ac84305d00
-SHA1: 00918d7219f0834b8ed64d277030f8f875c80663
-SHA256: 36e94be07858f478798aeb195657e54e983d135009d06f6362dd435edbf44d0c
-SHA512: 28746d7b8129b49f65ddecc64f078939c1b6fd44a948e6dcb9a3583e96c13a10c76a8e9eea312138e5bc01e055e79f3719641b45c1c690fb6535be541ea922b8
-Description: IULinux desktop integration
- Provides the supported IULinux Plasma desktop integration, including the
- IULinux global theme and panel layout, desktop defaults, IULinux Settings,
- performance and graphics integration, Ptyxis and Resources defaults, and required Plasma
- widgets.
-
-Package: iulinux-desktop
-Architecture: all
-Version: 0.1~alpha1-5
-Priority: important
-Section: kde
-Maintainer: IULinux Project
-Depends: plasma-desktop, plasma-workspace, ptyxis, resources, switcheroo-control, pkexec, xdg-terminal-exec, power-profiles-daemon, python3-dbus, python3-gi, python3-pyside6.qtcore, python3-pyside6.qtgui, python3-pyside6.qtqml, python3-pyside6.qtquick, python3-pyside6.qtquickcontrols2, qml6-module-org-kde-kirigami, qml6-module-org-kde-plasma-plasma5support, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-window
-Conflicts: konsole, plasma-systemmonitor
-Filename: pool/main/iulinux-desktop_0.1~alpha1-5_all.deb
-Size: 1420854
-MD5sum: c37410694236e52f289fe9be2834e952
-SHA1: fd0e47e16d29e47d77147b0ff4638969f10f6845
-SHA256: 79ceb38db69a12c3a38486c250600e9866494d464be1f3050f59b9c96a7f8ad2
-SHA512: 1fd71f5612542964c001fd6a67b2e05b6ab3dd4aeff30d64fa08485910a81c6ad91006bd9728e5d12ce488417d01710b0478cf57046fdab773ba9b1418b83724
-Description: IULinux desktop integration
- Provides the supported IULinux Plasma desktop integration, including the
- IULinux global theme and panel layout, desktop defaults, IULinux Settings,
- performance and graphics integration, Ptyxis and Resources defaults, and required Plasma
- widgets.
-
-Package: iulinux-desktop
-Architecture: all
-Version: 0.1~alpha1-6
-Priority: important
-Section: kde
-Maintainer: IULinux Project
-Depends: plasma-desktop, plasma-workspace, ptyxis, resources, switcheroo-control, pkexec, xdg-terminal-exec, power-profiles-daemon, python3-dbus, python3-gi, python3-pyside6.qtcore, python3-pyside6.qtgui, python3-pyside6.qtqml, python3-pyside6.qtquick, python3-pyside6.qtquickcontrols2, qml6-module-org-kde-kirigami, qml6-module-org-kde-plasma-plasma5support, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-window
-Conflicts: konsole, plasma-systemmonitor
-Filename: pool/main/iulinux-desktop_0.1~alpha1-6_all.deb
-Size: 1422944
-MD5sum: cc5a732ef8a19950e299905cab0498ea
-SHA1: 1088b91fb9f5a60c5465e9342e26c39a3dc565fd
-SHA256: ca5cd3474161b382525f2b3a36309f3e1e3b64d6f312463ad3ef43d16088c6ae
-SHA512: 76bc8f14beb8f4baa22cae1defbf73ccadb337480a33e7ce6043149a9951e9c2caeba3d06aafb474f3d6c1cbd653b1d5ac1290b9efbbaf9df94bc527aef4dacb
-Description: IULinux desktop integration
- Provides the supported IULinux Plasma desktop integration, including the
- IULinux global theme and panel layout, desktop defaults, IULinux Settings,
- performance and graphics integration, Ptyxis and Resources defaults, and required Plasma
- widgets.
-
-Package: iulinux-desktop
-Architecture: all
-Version: 0.1~alpha1-7
-Priority: important
-Section: kde
-Maintainer: IULinux Project
-Depends: plasma-desktop, plasma-workspace, ptyxis, resources, switcheroo-control, pkexec, xdg-terminal-exec, power-profiles-daemon, python3-dbus, python3-gi, python3-pyside6.qtcore, python3-pyside6.qtgui, python3-pyside6.qtqml, python3-pyside6.qtquick, python3-pyside6.qtquickcontrols2, qml6-module-org-kde-kirigami, qml6-module-org-kde-plasma-plasma5support, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-window, cifs-utils, kde-spectacle, pulseaudio-utils
-Conflicts: konsole, plasma-systemmonitor
-Filename: pool/main/iulinux-desktop_0.1~alpha1-7_all.deb
-Size: 1433272
-MD5sum: cc4f0bd8b5c713337b1fc248c40eb12b
-SHA1: c84c9332db4dc0e2f59a65109e2a46aa03cfbe72
-SHA256: ab72195ec903a8642ca174d9d706fd6de7f69a4f63a9b3e8d63e18d695d72559
-SHA512: a77d382af8bd81f75754244986f958f1fbbd922d88aed348ef94336ea727cea39c84b28d8039a04e5621e90d037c1a4dcad57a7e8d0390b912f08ef26c86f271
-Description: IULinux desktop integration
- Provides the supported IULinux Plasma desktop integration, including the
- IULinux global theme and panel layout, desktop defaults, IULinux Settings,
- performance and graphics integration, Ptyxis and Resources defaults, and required Plasma
- widgets.
-
-Package: iulinux-desktop
-Architecture: all
-Version: 0.1~alpha1-8
-Priority: important
-Section: kde
-Maintainer: IULinux Project
-Depends: plasma-desktop, plasma-workspace, ptyxis, resources, switcheroo-control, pkexec, xdg-terminal-exec, power-profiles-daemon, python3-dbus, python3-gi, python3-pyside6.qtcore, python3-pyside6.qtgui, python3-pyside6.qtqml, python3-pyside6.qtquick, python3-pyside6.qtquickcontrols2, qml6-module-org-kde-kirigami, qml6-module-org-kde-plasma-plasma5support, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-window, cifs-utils, kde-spectacle, pulseaudio-utils
-Conflicts: konsole, plasma-systemmonitor
-Filename: pool/main/iulinux-desktop_0.1~alpha1-8_all.deb
-Size: 1501440
-MD5sum: ea88d6563274c10ec97eadf172a96e86
-SHA1: 34c171c2c28194c78ee6f008a21034f8dc491519
-SHA256: 760fdbff6665e39481a815620fea9142027c9167408fa47d15562a7fcf3ee393
-SHA512: 29d3f8fb16021b654bc0abd5574e4464176c4a50c92491e34260be5953821cd59e1ae59148616607b407f82f0434c099dee8245909636caaa2d65eec7cf2be1b
-Description: IULinux desktop integration
- Provides the supported IULinux Plasma desktop integration, including the
- IULinux global theme and panel layout, desktop defaults, IULinux Settings,
- performance and graphics integration, Ptyxis and Resources defaults, and required Plasma
- widgets.
-
-Package: iulinux-desktop
-Architecture: all
-Version: 0.1~alpha1-9
-Priority: important
-Section: kde
-Maintainer: IULinux Project
-Depends: plasma-desktop, plasma-workspace, ptyxis, resources, switcheroo-control, pkexec, xdg-terminal-exec, power-profiles-daemon, python3-dbus, python3-gi, python3-pyside6.qtcore, python3-pyside6.qtgui, python3-pyside6.qtqml, python3-pyside6.qtquick, python3-pyside6.qtquickcontrols2, qml6-module-org-kde-kirigami, qml6-module-org-kde-plasma-plasma5support, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-window, cifs-utils, kde-spectacle, pulseaudio-utils, appstream, gir1.2-appstream-1.0
-Conflicts: konsole, plasma-systemmonitor
-Filename: pool/main/iulinux-desktop_0.1~alpha1-9_all.deb
-Size: 1501462
-MD5sum: b00514452d23521d1a092c609419ecf5
-SHA1: e23ae429d2650bdf5902d27faf42bdd56349d9ec
-SHA256: a093118124056308bc95f2b0a00c6f0b73e1ec228935649055ab1155e71cea73
-SHA512: 7715610de7ac6d87f73c80f0da331bae7d4b966dd56e8481e8795597ff481ab9ed40fe534a912fd7bb07c866e16961b37281fed2e213fe95fa375d15152d80fe
-Description: IULinux desktop integration
- Provides the supported IULinux Plasma desktop integration, including the
- IULinux global theme and panel layout, desktop defaults, IULinux Settings,
- performance and graphics integration, Ptyxis and Resources defaults, and required Plasma
- widgets.
-
-Package: iulinux-release
-Architecture: all
-Version: 0.1~alpha1-1
-Priority: optional
-Section: admin
-Maintainer: IULinux Project
-Filename: pool/main/iulinux-release_0.1~alpha1-1_all.deb
-Size: 732
-MD5sum: 35142a85ce91dc8a12cd90658db10335
-SHA1: 8dd0be7deaaae17a54d93e6f462bca89674e9c7d
-SHA256: c5bc15296aac20a3e03b12f0b9749327926d7253f449856e8be60f6d1b909b7e
-SHA512: 2237bdb4427a2f498ec6ac4b6a8db860faf67b1333d8e0fa73b400f08004837b73e41be098fd2bb914155ae899219eba8908a0cc12848505fcfd339fba8ba9bd
-Description: IULinux release identity and update channel metadata
- Provides the installed IULinux release version, channel, and Ubuntu base
- information used by IULinux system and update tooling.
-
-Package: iulinux-release
-Architecture: all
-Version: 0.1~alpha1-2
-Priority: optional
-Section: admin
-Maintainer: IULinux Project
-Filename: pool/main/iulinux-release_0.1~alpha1-2_all.deb
-Size: 738
-MD5sum: bf11f17f6f1bf55546907bec1e384992
-SHA1: 538e7fc9b8c0c91bc1948f4ae99bf94e91d057fd
-SHA256: ea2550bbb66d641b60ae46bc85fa35fa9c63d41497dafcc0d4b4347946da26bd
-SHA512: 807c86338ecc4b781bd4da5e1344ab55da610f625c88c09ab75c1d6b691fd2110e71d91a84c5f1f0d593ed640603c621882010cf43890a97197aa0d2863982f2
-Description: IULinux release identity and update channel metadata
- Provides the installed IULinux release version, channel, and Ubuntu base
- information used by IULinux system and update tooling.
 
 Package: iulinux-release
 Architecture: all
@@ -376,342 +69,42 @@ Description: IULinux official APT repository configuration
 
 Package: iulinux-system
 Architecture: all
-Version: 0.1~alpha1-10
+Version: 0.1~alpha1-53
 Priority: important
 Section: metapackages
 Maintainer: IULinux Project
-Depends: iulinux-release (= 0.1~alpha1-3), iulinux-update (= 0.1~alpha1-1), iulinux-repository (= 0.1~alpha1-1), iulinux-archive-keyring (>= 0.1~alpha1-3), iulinux-desktop (= 0.1~alpha1-6)
-Filename: pool/main/iulinux-system_0.1~alpha1-10_all.deb
-Size: 688
-MD5sum: 8fd5fdc42a0d116c026aa1abeb35b0ed
-SHA1: 14b23413482ae801575ddecf0c239d295569df05
-SHA256: 998e3a2e58cc21ec9ebc7ba3781a117f91fb6093e9b84e8aaa05a7aa62701ee7
-SHA512: 58133924aa9a35c5d85894f33e7bc67ac244be44fa61009aa2478ad51ccdcc9d905c729d07c08bbe0dab06fe77e2786bc83c86bbbbe08b0e705b1527340025c9
-Description: IULinux supported system metapackage
+Depends: iulinux-release (>= 0.1~alpha1-3), iulinux-update (>= 0.1~alpha1-2), iulinux-repository (>= 0.1~alpha1-1), iulinux-archive-keyring (>= 0.1~alpha1-3), iulinux-desktop (>= 0.1~alpha1-45), python3, python3-dbus, python3-gi, pkexec, fwupd, finalrd, fdisk, openssl, file, rsync, git, tar, gzip, bzip2, xz-utils, zstd, zip, unzip, 7zip, libarchive-tools, cryptsetup, libfuse2t64, gnupg
+Breaks: iulinux-desktop (<< 0.1~alpha1-27)
+Replaces: iulinux-desktop (<< 0.1~alpha1-27)
+Filename: pool/main/iulinux-system_0.1~alpha1-53_all.deb
+Size: 25530
+MD5sum: 54ee293762410437553b1951bd153729
+SHA1: ae7ef24f79bca6d09089094ec69b4294423cc803
+SHA256: b997620a1d2b5095ef5465cbbf3fe0c44ca1185f14e9e68e9543608b8bf783f9
+SHA512: 3eb8895bdededdc1c76e3feb3249652145b20c80abf015f579769827afbb51546232664a9172fed18e13ce6fc527bbe71478e5710dee849ef64b57000c9fba2d
+Description: IULinux supported system components
  Tracks the core IULinux components required for a supported installation.
  Upgrading this package allows existing installations to gain new mandatory
  IULinux components without reinstalling the operating system.
-
-Package: iulinux-system
-Architecture: all
-Version: 0.1~alpha1-11
-Priority: important
-Section: metapackages
-Maintainer: IULinux Project
-Depends: iulinux-release (= 0.1~alpha1-3), iulinux-update (= 0.1~alpha1-1), iulinux-repository (= 0.1~alpha1-1), iulinux-archive-keyring (>= 0.1~alpha1-3), iulinux-desktop (= 0.1~alpha1-7)
-Filename: pool/main/iulinux-system_0.1~alpha1-11_all.deb
-Size: 690
-MD5sum: 70478ca796fee3d495aa7e77c5839938
-SHA1: ad85b3519ed88b9d8df12d7e638cdf2551b03c8f
-SHA256: 85fd939a1dc63e5a85734579481198ae967bfa4c3e386631e0e35cf729860a56
-SHA512: 21cf3bc3d7147beab50594b2fa07e539cea81ae677d3c8399039c36c37522eb7ee737d9c8e2ea055d94bcdd5b287c6da1d4861ed97d16717216787d53c9fb7a2
-Description: IULinux supported system metapackage
- Tracks the core IULinux components required for a supported installation.
- Upgrading this package allows existing installations to gain new mandatory
- IULinux components without reinstalling the operating system.
-
-Package: iulinux-system
-Architecture: all
-Version: 0.1~alpha1-12
-Priority: important
-Section: metapackages
-Maintainer: IULinux Project
-Depends: iulinux-release (= 0.1~alpha1-3), iulinux-update (= 0.1~alpha1-1), iulinux-repository (= 0.1~alpha1-1), iulinux-archive-keyring (>= 0.1~alpha1-3), iulinux-desktop (= 0.1~alpha1-8)
-Filename: pool/main/iulinux-system_0.1~alpha1-12_all.deb
-Size: 680
-MD5sum: 2ae20cbae021495445fd507f7ff5f5c4
-SHA1: eb8e4a44cceb00a3df7c565c0dae7447083d709b
-SHA256: 76a6e6f95bdb7162d676debc6696ad8995eb608acc18e4ce7c1adcaf6893f958
-SHA512: 360962fcdece754a72bc498a4a2c947be8e05dd3ad22f1ca91e238e64c9fa8c26c489f3638e2ed3030960f0e0e83251f5e051126fb278798ed01937e2c68c67e
-Description: IULinux supported system metapackage
- Tracks the core IULinux components required for a supported installation.
- Upgrading this package allows existing installations to gain new mandatory
- IULinux components without reinstalling the operating system.
-
-Package: iulinux-system
-Architecture: all
-Version: 0.1~alpha1-13
-Priority: important
-Section: metapackages
-Maintainer: IULinux Project
-Depends: iulinux-release (= 0.1~alpha1-3), iulinux-update (= 0.1~alpha1-1), iulinux-repository (= 0.1~alpha1-1), iulinux-archive-keyring (>= 0.1~alpha1-3), iulinux-desktop (= 0.1~alpha1-9)
-Filename: pool/main/iulinux-system_0.1~alpha1-13_all.deb
-Size: 692
-MD5sum: d246e18d2bf5e534bdbf1b08fcc0492d
-SHA1: 523ebbf0eb3a1ce0518d93d4aa22b5869ba883c2
-SHA256: 1003b961bd70b026b5aa9f5241f27685ce33bd8b974702c6371ecdc4270bcdb5
-SHA512: 5f4e1a2cc2b092c8cfc358788788de912c87428a52548c72ce1fd32727f92629f16f1067da0da4655b4d96d2c9e40c97d5f4b82764faa29fcf4a98c4ec554121
-Description: IULinux supported system metapackage
- Tracks the core IULinux components required for a supported installation.
- Upgrading this package allows existing installations to gain new mandatory
- IULinux components without reinstalling the operating system.
-
-Package: iulinux-system
-Architecture: all
-Version: 0.1~alpha1-14
-Priority: important
-Section: metapackages
-Maintainer: IULinux Project
-Depends: iulinux-release (= 0.1~alpha1-3), iulinux-update (= 0.1~alpha1-1), iulinux-repository (= 0.1~alpha1-1), iulinux-archive-keyring (>= 0.1~alpha1-3), iulinux-desktop (= 0.1~alpha1-10)
-Filename: pool/main/iulinux-system_0.1~alpha1-14_all.deb
-Size: 690
-MD5sum: 8c40fa1c5df79012bf5e4b4dcde83819
-SHA1: 17641d87324f87ea36b4d28acf8f5901a2d31024
-SHA256: 468eff90a6a974fd30d8870c4ec9a94199dbffbae70ed86891144e9507cdb2fa
-SHA512: 035d2f9b7c41aff1d6c08ed78fca93385b74bf3561cead93027aad1bccc310a84a2de368de8b3592bb297786246873293312d1ad94611c17d75b3841f1b6bce2
-Description: IULinux supported system metapackage
- Tracks the core IULinux components required for a supported installation.
- Upgrading this package allows existing installations to gain new mandatory
- IULinux components without reinstalling the operating system.
-
-Package: iulinux-system
-Architecture: all
-Version: 0.1~alpha1-18
-Priority: important
-Section: metapackages
-Maintainer: IULinux Project
-Depends: iulinux-release (= 0.1~alpha1-3), iulinux-update (= 0.1~alpha1-1), iulinux-repository (= 0.1~alpha1-1), iulinux-archive-keyring (>= 0.1~alpha1-3), iulinux-desktop (= 0.1~alpha1-14)
-Filename: pool/main/iulinux-system_0.1~alpha1-18_all.deb
-Size: 692
-MD5sum: a6f505b9220149cbc41e20cd656cc2cc
-SHA1: e6c06ec14b1910f3f167841184641d67e902d94b
-SHA256: ce991554c98167be5974ee121eaa557e419f608792d3e449037471f1b84aefe1
-SHA512: eac1330daaed1c02c7893935e6657f9dc1e0cd013f9758a4f2090d2f08a0347ffeea79805127b97c936aec9233842abd5c8a9a8090de6e17e55bd313e7c0aa83
-Description: IULinux supported system metapackage
- Tracks the core IULinux components required for a supported installation.
- Upgrading this package allows existing installations to gain new mandatory
- IULinux components without reinstalling the operating system.
-
-Package: iulinux-system
-Architecture: all
-Version: 0.1~alpha1-19
-Priority: important
-Section: metapackages
-Maintainer: IULinux Project
-Depends: iulinux-release (= 0.1~alpha1-3), iulinux-update (= 0.1~alpha1-1), iulinux-repository (= 0.1~alpha1-1), iulinux-archive-keyring (>= 0.1~alpha1-3), iulinux-desktop (= 0.1~alpha1-15)
-Filename: pool/main/iulinux-system_0.1~alpha1-19_all.deb
-Size: 692
-MD5sum: 1041f2073f72b935f040b0ae7c4e577d
-SHA1: 2d5f0a879cee75bf15399aa1155995671a5888cc
-SHA256: 81012272324fff5603ade5e08f5a707a80248d64e627ef4f1c7250c8ec395b6b
-SHA512: 9ac5dcc8a53d4dd18b1d21c7771b3877da734e1e7064d2cea407facc7c465b2d500d96c110955c232262c4ae0510fc33b4268cfda93c33243871708eb0dfad1f
-Description: IULinux supported system metapackage
- Tracks the core IULinux components required for a supported installation.
- Upgrading this package allows existing installations to gain new mandatory
- IULinux components without reinstalling the operating system.
-
-Package: iulinux-system
-Architecture: all
-Version: 0.1~alpha1-20
-Priority: important
-Section: metapackages
-Maintainer: IULinux Project
-Depends: iulinux-release (= 0.1~alpha1-3), iulinux-update (= 0.1~alpha1-1), iulinux-repository (= 0.1~alpha1-1), iulinux-archive-keyring (>= 0.1~alpha1-3), iulinux-desktop (= 0.1~alpha1-16)
-Filename: pool/main/iulinux-system_0.1~alpha1-20_all.deb
-Size: 686
-MD5sum: c60a9a783387697f8df0f47ee3773266
-SHA1: d6f5f63572e01bc1178b90c145e4e9be6b559cef
-SHA256: b26712fd465e7174c28e4166a4511c60c1d7af58076b61b2080868dd2359b476
-SHA512: 976cd66879792517ad9904a8803ae87ccbd51ebc8395faf73cfa7dda5c61e01947e4eb66d9840ce47179c17f8d9f9215eab3d2999fdbea9b28ac9718463a1970
-Description: IULinux supported system metapackage
- Tracks the core IULinux components required for a supported installation.
- Upgrading this package allows existing installations to gain new mandatory
- IULinux components without reinstalling the operating system.
-
-Package: iulinux-system
-Architecture: all
-Version: 0.1~alpha1-21
-Priority: important
-Section: metapackages
-Maintainer: IULinux Project
-Depends: iulinux-release (= 0.1~alpha1-3), iulinux-update (= 0.1~alpha1-1), iulinux-repository (= 0.1~alpha1-1), iulinux-archive-keyring (>= 0.1~alpha1-3), iulinux-desktop (= 0.1~alpha1-17)
-Filename: pool/main/iulinux-system_0.1~alpha1-21_all.deb
-Size: 690
-MD5sum: 7e8ceb4ecde5b795c6fbccdec21be77b
-SHA1: a0c3fa335049d08504220cfdd55a93d65d3da289
-SHA256: da0a633d8260e305bb28cdcf6ff80abc194043989bdfd12ed8f87b5718eab542
-SHA512: 51097c94238e81f66fc45ab0a05f80a4a1c7f41c7ea7575066ea7e486b35bcbf2992631ec25477c1373f544a186ccdbc0024972ebc7a3ba47302006a226c1d99
-Description: IULinux supported system metapackage
- Tracks the core IULinux components required for a supported installation.
- Upgrading this package allows existing installations to gain new mandatory
- IULinux components without reinstalling the operating system.
-
-Package: iulinux-system
-Architecture: all
-Version: 0.1~alpha1-22
-Priority: important
-Section: metapackages
-Maintainer: IULinux Project
-Depends: iulinux-release (= 0.1~alpha1-3), iulinux-update (= 0.1~alpha1-1), iulinux-repository (= 0.1~alpha1-1), iulinux-archive-keyring (>= 0.1~alpha1-3), iulinux-desktop (= 0.1~alpha1-18)
-Filename: pool/main/iulinux-system_0.1~alpha1-22_all.deb
-Size: 692
-MD5sum: 6b1c8baafe756d0c2d27d7b33e84c329
-SHA1: 19f4cae0e72fdd6ce52a683a238a513d94052689
-SHA256: 1137b74c5ada65dbb49a8ec0543ada19b093c9c966bea7f93663e08baa06a46f
-SHA512: cacbbcfc51161749a9493aab7817580f172ccf87749b2de8c3f330b552a87549b73a846d8b35bfffa2b9b1372618fd5d4ddf7e8faf4e749a9b05cd1126364869
-Description: IULinux supported system metapackage
- Tracks the core IULinux components required for a supported installation.
- Upgrading this package allows existing installations to gain new mandatory
- IULinux components without reinstalling the operating system.
-
-Package: iulinux-system
-Architecture: all
-Version: 0.1~alpha1-2
-Priority: important
-Section: metapackages
-Maintainer: IULinux Project
-Depends: iulinux-release (= 0.1~alpha1-1), iulinux-update (= 0.1~alpha1-1), iulinux-repository (= 0.1~alpha1-1), iulinux-archive-keyring (>= 0.1~alpha1-2)
-Filename: pool/main/iulinux-system_0.1~alpha1-2_all.deb
-Size: 676
-MD5sum: dc727b7ad6f3e1c8687b2f9f7d510440
-SHA1: f49eedf19c3d0b19ce78376bdc2591f164bd9d3e
-SHA256: 7b4cf2d1231d0ee24c529c180f4c09e611e3c683cd411426920dc9b89654bfdf
-SHA512: 9e1b1a3b482f639918751a1e65508eade75453b1e13dd77bed3fd3203bb9122effdbefa505ac399aa7a2068188b89bed83b5aa0977bf4bb5f9729ec11956d866
-Description: IULinux supported system metapackage
- Tracks the core IULinux components required for a supported installation.
- Upgrading this package allows existing installations to gain new mandatory
- IULinux components without reinstalling the operating system.
-
-Package: iulinux-system
-Architecture: all
-Version: 0.1~alpha1-30
-Priority: important
-Section: metapackages
-Maintainer: IULinux Project
-Depends: iulinux-release (= 0.1~alpha1-3), iulinux-update (= 0.1~alpha1-1), iulinux-repository (= 0.1~alpha1-1), iulinux-archive-keyring (>= 0.1~alpha1-3), iulinux-desktop (>= 0.1~alpha1-18)
-Filename: pool/main/iulinux-system_0.1~alpha1-30_all.deb
-Size: 930
-MD5sum: 7ed2dc734c33bdea2749a311c0496b97
-SHA1: e29da88943ad72d074e3c5fee5d5d84dc522b613
-SHA256: 165e04d99cc5629e82e4ca2e43c0f975e7e092653bd34ba5ecbd25a88a0fdb4f
-SHA512: 31f9b034339356b2d9d56451ab62a70e73004b16bf9e436948a5cad961e4a7b438eb3f91435598fa443b9fc85e7476c4932fd44e9fdcacdc5fa2139131bd6c0f
-Description: IULinux supported system metapackage
- Tracks the core IULinux components required for a supported installation.
- Upgrading this package allows existing installations to gain new mandatory
- IULinux components without reinstalling the operating system.
-
-Package: iulinux-system
-Architecture: all
-Version: 0.1~alpha1-3
-Priority: important
-Section: metapackages
-Maintainer: IULinux Project
-Depends: iulinux-release (= 0.1~alpha1-2), iulinux-update (= 0.1~alpha1-1), iulinux-repository (= 0.1~alpha1-1), iulinux-archive-keyring (>= 0.1~alpha1-2)
-Filename: pool/main/iulinux-system_0.1~alpha1-3_all.deb
-Size: 682
-MD5sum: a41cca048c93f743e3ca9b826762268e
-SHA1: db3a30cd6756b56985c02c4eb77c441ef5a0d721
-SHA256: 6563b070c156623c6afb481d12eeb6111aaa4d9ebad43467e84dffeacd20ef6d
-SHA512: 830e5ccfec4bd517d7eb619d68cf876eed2c08b2d8fe448039b7e00cce32acc2e6896dead4bf3849e3daab26dd35d930f816701fa9c6892b474ae64e8d66fa3e
-Description: IULinux supported system metapackage
- Tracks the core IULinux components required for a supported installation.
- Upgrading this package allows existing installations to gain new mandatory
- IULinux components without reinstalling the operating system.
-
-Package: iulinux-system
-Architecture: all
-Version: 0.1~alpha1-4
-Priority: important
-Section: metapackages
-Maintainer: IULinux Project
-Depends: iulinux-release (= 0.1~alpha1-3), iulinux-update (= 0.1~alpha1-1), iulinux-repository (= 0.1~alpha1-1), iulinux-archive-keyring (>= 0.1~alpha1-2)
-Filename: pool/main/iulinux-system_0.1~alpha1-4_all.deb
-Size: 682
-MD5sum: e296f57931480f1764ba82cd84166826
-SHA1: 89999aff47c87ec6effb812c3412ee04d8e2e041
-SHA256: 50c4b6f620ae7b734bf7b14072cb3f833b825fd5ffbaf01ad29ce3d042b7dd61
-SHA512: 0275774d8b36a4ac9e7e1f103958ec09e05f237d7e27234dcdf67601465f8850f1feb901b0def20aa0d0a464a5a5c04fbd210ecca569b124d82d99ca0372ed73
-Description: IULinux supported system metapackage
- Tracks the core IULinux components required for a supported installation.
- Upgrading this package allows existing installations to gain new mandatory
- IULinux components without reinstalling the operating system.
-
-Package: iulinux-system
-Architecture: all
-Version: 0.1~alpha1-5
-Priority: important
-Section: metapackages
-Maintainer: IULinux Project
-Depends: iulinux-release (= 0.1~alpha1-3), iulinux-update (= 0.1~alpha1-1), iulinux-repository (= 0.1~alpha1-1), iulinux-archive-keyring (>= 0.1~alpha1-3), iulinux-desktop (= 0.1~alpha1-1)
-Filename: pool/main/iulinux-system_0.1~alpha1-5_all.deb
-Size: 688
-MD5sum: 7238a1660f1f04f17f51b9d7c5826715
-SHA1: 96f9de51f256053c113b2b1b40675f34635ea70f
-SHA256: 91f2915e65042dea7d84aa8d86e69352bd175a6c87f1672ac115be04bda20d88
-SHA512: 8c7e63ae5064144dc594127204b4c77ada2cff7aec9457cdc9ff912995b8cb5193635db67c63bb117ef65a8e446895df1711b46514617feab073920bf85745c4
-Description: IULinux supported system metapackage
- Tracks the core IULinux components required for a supported installation.
- Upgrading this package allows existing installations to gain new mandatory
- IULinux components without reinstalling the operating system.
-
-Package: iulinux-system
-Architecture: all
-Version: 0.1~alpha1-7
-Priority: important
-Section: metapackages
-Maintainer: IULinux Project
-Depends: iulinux-release (= 0.1~alpha1-3), iulinux-update (= 0.1~alpha1-1), iulinux-repository (= 0.1~alpha1-1), iulinux-archive-keyring (>= 0.1~alpha1-3), iulinux-desktop (= 0.1~alpha1-3)
-Filename: pool/main/iulinux-system_0.1~alpha1-7_all.deb
-Size: 688
-MD5sum: 428fdd5e066b39f1d3a89bdecda75d44
-SHA1: 52776985873af406e0a75e0086a1e4c47fe217f2
-SHA256: c70994c2e218e529847b7dc09b07836ac92867668982731f443749f2fce4829c
-SHA512: fde190cf04d2919a0c0f361075d90361cdbf1ea083ba96d370d9a782b06538e800200163a4c63455fba7d7f15c5d8581dfd9f4ead28aee9e35f83f6d661ed767
-Description: IULinux supported system metapackage
- Tracks the core IULinux components required for a supported installation.
- Upgrading this package allows existing installations to gain new mandatory
- IULinux components without reinstalling the operating system.
-
-Package: iulinux-system
-Architecture: all
-Version: 0.1~alpha1-8
-Priority: important
-Section: metapackages
-Maintainer: IULinux Project
-Depends: iulinux-release (= 0.1~alpha1-3), iulinux-update (= 0.1~alpha1-1), iulinux-repository (= 0.1~alpha1-1), iulinux-archive-keyring (>= 0.1~alpha1-3), iulinux-desktop (= 0.1~alpha1-4)
-Filename: pool/main/iulinux-system_0.1~alpha1-8_all.deb
-Size: 688
-MD5sum: a719d1cd29ef324a11615ad84d107892
-SHA1: f6209363b88b7e27f109a73efd65edbaa2b82a81
-SHA256: c2c4bdedbcc857c806ebab886d2e33aaab84921c91efbe3f4f1eaea69a421f8a
-SHA512: 4f8204e698ff5f1f761bca9f50db0ea5493a763bc6da1b248d023dbabef4889115e92d932a4bf0ea46bbc3149d5e985cf96ebfaefeadae3a95a1130a22340b9b
-Description: IULinux supported system metapackage
- Tracks the core IULinux components required for a supported installation.
- Upgrading this package allows existing installations to gain new mandatory
- IULinux components without reinstalling the operating system.
-
-Package: iulinux-system
-Architecture: all
-Version: 0.1~alpha1-9
-Priority: important
-Section: metapackages
-Maintainer: IULinux Project
-Depends: iulinux-release (= 0.1~alpha1-3), iulinux-update (= 0.1~alpha1-1), iulinux-repository (= 0.1~alpha1-1), iulinux-archive-keyring (>= 0.1~alpha1-3), iulinux-desktop (= 0.1~alpha1-5)
-Filename: pool/main/iulinux-system_0.1~alpha1-9_all.deb
-Size: 688
-MD5sum: 766bf6a78f92d314361a4198d7a81a12
-SHA1: c7da08b46f9ef418b526126bc2d610ecb3c5be57
-SHA256: 9116c509f87a9a6534ca6b81061c8272eb8686c92313d40ef270fa2a6bff868e
-SHA512: 49d9828d20380b474ba67547fed3bcca343c95476f44f1113ab8b31ce6f2f6db643bafb68e57991853177fa762917201443692b87c70fc19197b836757322e43
-Description: IULinux supported system metapackage
- Tracks the core IULinux components required for a supported installation.
- Upgrading this package allows existing installations to gain new mandatory
- IULinux components without reinstalling the operating system.
+ Includes an opt-in generic platform-profile coordinator and staged native adapters.
+ Protects boot-critical packages against destructive APT transaction plans.
+ Provides a read-only boot artifact inventory for post-update inspection.
+ Records advisory boot observations and administrator-confirmed boot evidence.
 
 Package: iulinux-update
 Architecture: all
-Version: 0.1~alpha1-1
+Version: 0.1~alpha1-2
 Priority: optional
 Section: admin
 Maintainer: IULinux Project
 Depends: apt, iulinux-release
-Filename: pool/main/iulinux-update_0.1~alpha1-1_all.deb
-Size: 1270
-MD5sum: bb3b5d01022f0f0f6596b4b5e5eff68e
-SHA1: 8b04b7f0ebd0464ede54c6f5f909940268db7e63
-SHA256: 897c8f113c6b7f462069c4a67923250467de2fedd5d439ecc45879ee5ca31253
-SHA512: c8b0ffdcf58b28e9238adeb392598ceb3c9ed1be1afd95c2c26db075735c4d0674d82588c43cfdbe36026d522cc85c444d74769b998ab8fadedb51c65473e598
+Filename: pool/main/iulinux-update_0.1~alpha1-2_all.deb
+Size: 1616
+MD5sum: a0b8fe579336e46e5883cb3a50eb078a
+SHA1: e901b10790260d2e6fceeb931f88335ed9a1e488
+SHA256: 525d27f731f10990cf3811084a0b84f925ee3ede1bd9b39175ae0be3e064d994
+SHA512: 1273f2981c849c902feab0869a3a25e95b01aaa07f015ba086f69c9c9a276232141d757b7e73f548259b67f6e407bf81217a4c7091c0c9d36eac8c60293b1b64
 Description: IULinux system update command
  Provides a thin IULinux interface over the standard APT update and
- full-upgrade workflow.
+ full-upgrade workflow, rejecting package-removal transactions.
 
