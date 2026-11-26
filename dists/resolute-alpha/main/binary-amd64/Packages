@@ -36,16 +36,16 @@ Description: IULinux desktop integration
 
 Package: iulinux-release
 Architecture: all
-Version: 0.1~alpha1-3
+Version: 0.2~beta1-1
 Priority: optional
 Section: admin
 Maintainer: IULinux Project
-Filename: pool/main/iulinux-release_0.1~alpha1-3_all.deb
-Size: 1414
-MD5sum: 69dc46c509e5c153c93f19f1af74e6ab
-SHA1: 57991c25302a57c37f18efb3da82d37905c515df
-SHA256: 739c63fc1e7c8e588f565c64368c5eaa62ccf9481102b799a99260e9f5c023ba
-SHA512: a6a2c79f6727a7d772957e6b8fc055d2abaa75ad07af8dc2a955e3ece03d7bb33bbcd8e09bbea3f60efcfe2ed8dd35a5be42e4fe319b83d2e026a0ad20ccd7c9
+Filename: pool/main/iulinux-release_0.2~beta1-1_all.deb
+Size: 1412
+MD5sum: 5a66dd3237dc370176f9e0dcf8050053
+SHA1: 4e617b1d8afec3db4c5601fcc6e5395f43fe3f2f
+SHA256: b2ad9daf2a343283d1984d0503a226f1141ae1deeb6b34f92127e648b5c3f65a
+SHA512: 55a09626aef0bbaa970cc8a1bc0f50ea96c1391fa4bf6186d301385f33b60fd9ca7d7775154ab01aca1f70f7cb3b9180d0674fad5014f8b86a2784517c41c2aa
 Description: IULinux release identity and update channel metadata
  Provides the installed IULinux release version, channel, and Ubuntu base
  information used by IULinux system and update tooling.
@@ -69,19 +69,19 @@ Description: IULinux official APT repository configuration
 
 Package: iulinux-system
 Architecture: all
-Version: 0.1~alpha1-53
+Version: 0.2~beta1-1
 Priority: important
 Section: metapackages
 Maintainer: IULinux Project
-Depends: iulinux-release (>= 0.1~alpha1-3), iulinux-update (>= 0.1~alpha1-2), iulinux-repository (>= 0.1~alpha1-1), iulinux-archive-keyring (>= 0.1~alpha1-3), iulinux-desktop (>= 0.1~alpha1-45), python3, python3-dbus, python3-gi, pkexec, fwupd, finalrd, fdisk, openssl, file, rsync, git, tar, gzip, bzip2, xz-utils, zstd, zip, unzip, 7zip, libarchive-tools, cryptsetup, libfuse2t64, gnupg
+Depends: iulinux-release (>= 0.2~beta1-1), iulinux-update (>= 0.1~alpha1-2), iulinux-repository (>= 0.1~alpha1-1), iulinux-archive-keyring (>= 0.1~alpha1-3), iulinux-desktop (>= 0.1~alpha1-47), python3, python3-dbus, python3-gi, pkexec, fwupd, finalrd, fdisk, openssl, file, rsync, git, tar, gzip, bzip2, xz-utils, zstd, zip, unzip, 7zip, libarchive-tools, cryptsetup, libfuse2t64, gnupg
 Breaks: iulinux-desktop (<< 0.1~alpha1-27)
 Replaces: iulinux-desktop (<< 0.1~alpha1-27)
-Filename: pool/main/iulinux-system_0.1~alpha1-53_all.deb
-Size: 25530
-MD5sum: 54ee293762410437553b1951bd153729
-SHA1: ae7ef24f79bca6d09089094ec69b4294423cc803
-SHA256: b997620a1d2b5095ef5465cbbf3fe0c44ca1185f14e9e68e9543608b8bf783f9
-SHA512: 3eb8895bdededdc1c76e3feb3249652145b20c80abf015f579769827afbb51546232664a9172fed18e13ce6fc527bbe71478e5710dee849ef64b57000c9fba2d
+Filename: pool/main/iulinux-system_0.2~beta1-1_all.deb
+Size: 25540
+MD5sum: aa4f889c5e919ddc402a7128916f9a36
+SHA1: 1bc3af6365cee6530f4ba4d0ba0fbd9a7424667f
+SHA256: 756a3c89942935e71dc2b6d14b56b4030a260b6e6cc928c48773d8816e5e6f70
+SHA512: ab8eda674e79862e74ff72840426a6a420deba70fee749c01d9e3db75da8583259f196da3908a6b1c40cfeeb3e6e22a28da4547b41a514580bd88cdfa4e9c80b
 Description: IULinux supported system components
  Tracks the core IULinux components required for a supported installation.
  Upgrading this package allows existing installations to gain new mandatory

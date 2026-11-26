@@ -4,35 +4,35 @@ Hash: SHA256
 Architectures: amd64
 Codename: resolute-alpha
 Components: main
-Date: Thu, 26 Nov 2026 14:02:56 +0000
+Date: Thu, 26 Nov 2026 14:40:00 +0000
 Label: IULinux
 Origin: IULinux
 Suite: alpha
 MD5Sum:
- c62c339cccbdb2ec91b14f7ab20c4e1d             5996 main/binary-amd64/Packages
- e7c4f1f10f57fd8d948e944d3ebcafc5             2654 main/binary-amd64/Packages.gz
+ 7a029e7d878e663a8af53bca2f4b7edd             5989 main/binary-amd64/Packages
+ 43f01040a724d02639e820e6dcc3c5b2             2665 main/binary-amd64/Packages.gz
 SHA1:
- 541a958a9aeea95a800a1f4dae73a9908725f3cd             5996 main/binary-amd64/Packages
- 3cfe1d2815026cea8b6250341044223a54571ac8             2654 main/binary-amd64/Packages.gz
+ 54200ec1e93920a955a54cc84106c2fdbabc00c9             5989 main/binary-amd64/Packages
+ a42cae36600c6d95d48fddc50fc2fb10b2fdf4f6             2665 main/binary-amd64/Packages.gz
 SHA256:
- fa8b6e679c134a8dd8aafd4568d3ec227cf07e25e9b3002202512207ae46ad0c             5996 main/binary-amd64/Packages
- 6b2bd65c35e68d09c88809e2aec5fd21a24ae32fb72e12e67e2ed6655e00c8ab             2654 main/binary-amd64/Packages.gz
+ 51cc793bef28896fc7e32624bcf7717d7a0b509561c9d0f914e85fad5535d3b1             5989 main/binary-amd64/Packages
+ 6a19ffdc5078ca5b0fb75356ce5655eb5cd58e3b3e1a63745ae73ec48b47f6df             2665 main/binary-amd64/Packages.gz
 SHA512:
- e4f409e2a5b732f0492ac309a7f3628df95b8c71f1c49e3544a414426c778166a3db373b779a273f30365923a7be96c450630be06159bb4acaae3a3acbac2992             5996 main/binary-amd64/Packages
- f56ea614f7c7520536deddf8ef11705698b6d37c02c50bd779304cc4167f6d7f1f957c31185c95690bf99f3cc583ba9b0f0ce28d62c097f07aad2856054feb36             2654 main/binary-amd64/Packages.gz
+ 8eedd348b1355271d08fe10357c9075b8dcd7b1b4787d412bc9b56eb3d952634940b85533ee51368383f63ecc2b95f1692de443eda3ce7a590ff127a0613b560             5989 main/binary-amd64/Packages
+ 8bf8d3efddfe6076539dc60454c2f149b8c0ba40e9ba48e269871da9ae1c1d705e44bf72e61fefef4965b860795a78633aac227339e7ef58dc9db869eac4a18b             2665 main/binary-amd64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEQGGMnWZCArhZ/LohCa/teZV2wusFAmsIPBAACgkQCa/teZV2
-wusYfhAAhzbALwQjYpoxDKNmFmdHcy3UftQBF5TSn2j01cKcPs5G5wVe64VNM7z5
-KXjV6EgFGDATuNlhi+rCxc701/KD1cwHH4bGgPEpnslKWEa4UJz25hETSjP0bhT6
-g/wx2ex/miyZNKIpD57wllwopptKbqAbGdpFqmPVJsilfvBivNxQ10C6BATJF2XV
-pd+jUevti7CxfBMfwIDL6KGn52UrB+Q03i2XcP25TKp0ZhgQtOeB6r08/syWkKMo
-RE0WiCb7nbY8DN00LFhc41nEDFxsjSjmErETkcF1prMwnuOm/PRaPeHXR6wV+Wpr
-5N6AU6JSvMTvZr5mbuS7haYwknqH2yGWJF2sVH1hblkKSRutOFH5IjnQoKUQD/8v
-tMwpmRg6f2CCzo3SP+LgFiHsasyLwbSSY30Icj7zV5rkwA7zvTm5QxVXMKRjsXcx
-tudG3XFzGJdtD83xKCttV+FF1p0SNWJp9+FqUDd3g0isiR3Uxh8cG9i18uP4ZHBf
-yWkxajr8UWEx4tF7Uc/tR1wo6nCOfxSPwU4oNhATTu56KFq8COv+LVBNKsXcv6Tr
-AqK7dmH4qtVmSN93w1r5Hnt4+tv48IPqj7m3PqHikfQbAJnptoqTIlb2l8EV7M1e
-RwZrYbiu9Gmsjr535rMS3v4MbbyQ9q8YsFI8wZG1ZFmIFAuZ0tw=
-=voKa
+iQIzBAEBCAAdFiEEQGGMnWZCArhZ/LohCa/teZV2wusFAmsIRMAACgkQCa/teZV2
+wutfwhAAwXNDue058iLUNxT725jHOSg/XbB/sbOAiUZEuuBHXqcuH0vfhJoI5tQO
+D4hhU9Yvln9xg4G3KB7Us+e6fjQ3JlhA9HgXDGG3tbxzlLVKeLFvMCy6zCKrvOsk
+pA9X8CIEfE8rpUHS0upO9sim5G+QnE03cp5xSeIKk4NYv7FMILJ5F7i1Ia/mT7Mx
+pfo71Ldd1rMYmmmYmYmHtQNyd68aOCZ72X+qXt/VDqBXEJcGFIH/y7n7ghL8fNDL
+M2tY+leIxzxdES3znlZK+AYIOUu8Dn8BjGjD6QKlTe22aanXOMHcebPbs8xxfQrZ
+mEl/cBia6CB+h5Q+ZcXh5xVNwo0mDaaLzujaBA7lkO9p4imiIjejDV20MBwFuV3e
+shH4PclQpxPodfQruM/AWIc7J+HrhYDciONAab67HONZw+flAQMO7Ph9jqz9WV5X
++pzLIv2eqjHIXEqMk4fYuP0Btbu1kv+xJ4ORdsH+lK8/o4rK24a1d9ZnPEdXm22u
+iue3QFXDfS3lbBy6TKMW3oRre9jZO/MiPEopZS2+YI1Rn9IGKG5fQB+OpvyZ8YAE
+EX3Lgb2L4ahFk+MjNIqom32LoLtsXIv7nQTsrxPMoRhQDOMRpcLqHar0dqpZtXUN
+jzKAj+km1ry4mxDpWC0k8AVyAVhNZb1xmRuvJmonUrPnocoOHfE=
+=WNMs
 -----END PGP SIGNATURE-----
