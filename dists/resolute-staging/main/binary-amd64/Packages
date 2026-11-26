@@ -1,0 +1,60 @@
+Package: iulinux-desktop
+Architecture: all
+Version: 0.1~alpha1-44
+Priority: important
+Section: kde
+Maintainer: IULinux Project
+Depends: python3, fwupd, plasma-discover, plasma-discover-backend-fwupd, unattended-upgrades, sddm, kwin-wayland, layer-shell-qt, plasma-desktop, plasma-workspace, ptyxis, resources, switcheroo-control, pkexec, xdg-terminal-exec, power-profiles-daemon, python3-dbus, python3-gi, python3-pyside6.qtcore, python3-pyside6.qtgui, python3-pyside6.qtqml, python3-pyside6.qtquick, python3-pyside6.qtquickcontrols2, qml6-module-org-kde-kirigami, qml6-module-org-kde-plasma-plasma5support, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-window, cifs-utils, kde-spectacle, pulseaudio-utils, packagekit, appstream, gir1.2-appstream-1.0, kde-config-screenlocker, kscreen, plasma-integration, kde-style-breeze, xdg-desktop-portal, xdg-desktop-portal-kde, kde-config-gtk-style, breeze-gtk-theme, ark
+Filename: pool/staging/iulinux-desktop_0.1~alpha1-44_all.deb
+Size: 13620242
+MD5sum: 71e502133abda0499d96bda13a499a47
+SHA1: 3c5167fc86d987d96402ed0ee9bf34213a5ea13e
+SHA256: ff653cd105a6cb96417616fbcb379f5c8ba002236dba3c3c6822bace163fb5b5
+SHA512: 74779de689fd2109cdd32db1c994a64271cc9d4725f2836a9a302347dbbd85a475c892f973be079a2cb95702ee4754772ddccaee6c5f54cf9569d3d5c4afd345
+Description: IULinux desktop integration
+ Provides the supported IULinux Plasma desktop integration, including the
+ IULinux global theme and panel layout, desktop defaults, IULinux Settings,
+ performance and graphics integration, Ptyxis and Resources defaults, and required Plasma
+ widgets.
+
+Package: iulinux-system
+Architecture: all
+Version: 0.1~alpha1-52
+Priority: important
+Section: metapackages
+Maintainer: IULinux Project
+Depends: iulinux-release (>= 0.1~alpha1-3), iulinux-update (>= 0.1~alpha1-2), iulinux-repository (>= 0.1~alpha1-1), iulinux-archive-keyring (>= 0.1~alpha1-3), iulinux-desktop (>= 0.1~alpha1-42), python3, python3-dbus, python3-gi, pkexec, fwupd, finalrd, fdisk, openssl, file, rsync, git, tar, gzip, bzip2, xz-utils, zstd, zip, unzip, 7zip, libarchive-tools, cryptsetup, libfuse2t64, gnupg
+Breaks: iulinux-desktop (<< 0.1~alpha1-27)
+Replaces: iulinux-desktop (<< 0.1~alpha1-27)
+Filename: pool/staging/iulinux-system_0.1~alpha1-52_all.deb
+Size: 24590
+MD5sum: e87753943527530901f33e54e295d45b
+SHA1: 608813c9dec2fdb2da2a4dcceb5130fac79a34a6
+SHA256: 01364ec7b88b2aa97a490a06658242579562d848709765e1843b39526e044acd
+SHA512: 43f3208b46f690dda4fdd71e53b283a7c55a74c6a5a197f64fbab7f0b4804def4abb929e7176d949801f32992087de17b31dac25964ccfc6b8ae693bba0e37ae
+Description: IULinux supported system components
+ Tracks the core IULinux components required for a supported installation.
+ Upgrading this package allows existing installations to gain new mandatory
+ IULinux components without reinstalling the operating system.
+ Includes an opt-in generic platform-profile coordinator and staged native adapters.
+ Protects boot-critical packages against destructive APT transaction plans.
+ Provides a read-only boot artifact inventory for post-update inspection.
+ Records advisory boot observations and administrator-confirmed boot evidence.
+
+Package: iulinux-update
+Architecture: all
+Version: 0.1~alpha1-2
+Priority: optional
+Section: admin
+Maintainer: IULinux Project
+Depends: apt, iulinux-release
+Filename: pool/staging/iulinux-update_0.1~alpha1-2_all.deb
+Size: 1616
+MD5sum: a0b8fe579336e46e5883cb3a50eb078a
+SHA1: e901b10790260d2e6fceeb931f88335ed9a1e488
+SHA256: 525d27f731f10990cf3811084a0b84f925ee3ede1bd9b39175ae0be3e064d994
+SHA512: 1273f2981c849c902feab0869a3a25e95b01aaa07f015ba086f69c9c9a276232141d757b7e73f548259b67f6e407bf81217a4c7091c0c9d36eac8c60293b1b64
+Description: IULinux system update command
+ Provides a thin IULinux interface over the standard APT update and
+ full-upgrade workflow, rejecting package-removal transactions.
+

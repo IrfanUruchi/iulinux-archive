@@ -1,0 +1,38 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Architectures: amd64
+Codename: resolute-staging
+Components: main
+Date: Thu, 26 Nov 2026 11:25:06 +0000
+Label: IULinux
+Origin: IULinux
+Suite: resolute-staging
+MD5Sum:
+ 79c0d6f23d191a45c86127d3b83f5284             3892 main/binary-amd64/Packages
+ 9e73ab5b661f2cb1f8e892d04c34532e             1844 main/binary-amd64/Packages.gz
+SHA1:
+ cbe3c71a875f693387ced2b64b0fe92e7105879f             3892 main/binary-amd64/Packages
+ f314e45c303749d3ff02c6a3a555b70f5f779e57             1844 main/binary-amd64/Packages.gz
+SHA256:
+ e60a495d345e7741592b27127c40c3d580fcb39a1e3087d0f89523d8d1b9df05             3892 main/binary-amd64/Packages
+ 62b59a20c37bf22e48faaf8957d358830314f3687ad4840d159974d15ff9ccbf             1844 main/binary-amd64/Packages.gz
+SHA512:
+ 2db8e872bb7db138c1ffd7edddab08efb70cf1e956c99ba395ed0bf18144602a8ae9b4682e2c1850139f76d7225335c3c7e5e0e1c366923542166cc76fa0ca3c             3892 main/binary-amd64/Packages
+ 9d97d29b9e087d2f8b6d03ef9ca3887e433e1d5cc61825861813e2bac65c1a950d516ea64bbaca4eb7a5bda95cd832f308126d3775c81ad2831397c1f5d6cc49             1844 main/binary-amd64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEEQGGMnWZCArhZ/LohCa/teZV2wusFAmsIFxIACgkQCa/teZV2
+wus9OQ//WqkIAf5/YH3PLGauGEkRXVAJgNHdUEd5qb1Gq+pc32L1mecJsuMevir8
+B2pV9zw+Fw6D5H38OEWTmB4++ekY6NEYT2YeAStFUmFjbkYFO7q/Gz5agaa1R4y8
+oSNyTHZe4tZUZhqa+yFmhgXTPwXtxPVMDon9fG18XuQCtBiiaEVogAi1OadGjTaq
+dw3RmHCyuLQOgNfeJe51RpjFAOt2gY2e2M/RaryAKVspLydTkKIiylzDsGZ21NSJ
+vNriQ3dU/1frbtgW1mp82lfSZDVMH/mKAlmXbpoKoZyYnXbdebZRwCMUFkYxGf7F
+4J+6oV3OZcQm4DMkEB+m5J7o6NELw1WygsLekzg9QxqsPODsuk6RT+TdiPFtYLNJ
+qEdk4jM/xm7F/VOm0Kdo5yZA1u/qB5vBQLZnds21XuJ7gX6TW+O7Yca2mZ326DmT
+1gX3O39erqygnG5MpDzFpdZ3vvKZPFOtfmXOoFQwn3CIuqPsI862Dua6Vj5LmwrE
+As3VDKHyYEtAM0z8Q1t+eMTQfzmbf8oy8LCNXvarCyyVANg7UP1Y+Po2aTywY8mY
+4Az7YDD4AhH46pGqB6/GELnLD4dt2dmpEFr4jMpCHH0OGjAvrjfVzg2vIxHNadcZ
+Zpw8SNz/igk9sM4d5GWgjF5VzQGlorEOOiDb32jPniixnBxsoJ4=
+=TeW3
+-----END PGP SIGNATURE-----
